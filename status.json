@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T18:15:41+08:00",
+  "updated": "2026-09-13T18:20:48+08:00",
   "online": true,
   "latency": 50,
   "players": {
@@ -33,18 +33,18 @@
   ],
   "leaderboard": [
     {
+      "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
+      "name": "xiaohei_HZ",
+      "kills": 3,
+      "wins": 3,
+      "losses": 3,
+      "deaths": 3
+    },
+    {
       "uuid": "6812e040-9a3a-3232-9d90-8385bc2c795a",
       "name": "f0urvvv",
       "kills": 3,
       "wins": 3,
-      "losses": 2,
-      "deaths": 2
-    },
-    {
-      "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
-      "name": "xiaohei_HZ",
-      "kills": 2,
-      "wins": 2,
       "losses": 3,
       "deaths": 3
     }
@@ -55,42 +55,42 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 104,
+      "mem": 165,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 65,
+      "mem": 76,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1006,
+      "cpu": 0.3,
+      "mem": 1044,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
       "cpu": 1.4,
-      "mem": 258,
+      "mem": 615,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 221,
+      "cpu": 0.5,
+      "mem": 446,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 1268,
+      "cpu": 1.7,
+      "mem": 1419,
       "act": 4
     }
   ],
@@ -171,6 +171,12 @@
       "t": "18:15:08",
       "tag": "[JOIN]",
       "msg": "PvP 竞技: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:20:45",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: f0urvvv has made the advancement [Hot Stuff]",
       "cls": "ok"
     }
   ],
