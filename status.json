@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-13T18:41:24+08:00",
+  "updated": "2026-09-13T18:46:31+08:00",
   "online": true,
-  "latency": 60,
+  "latency": 35,
   "players": {
-    "online": 2,
+    "online": 3,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "生存服",
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 2
+      "players": 1
     }
   ],
   "leaderboard": [
@@ -54,71 +54,47 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 93,
-      "act": 4
+      "cpu": 0.1,
+      "mem": 303,
+      "act": 5
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 58,
-      "act": 4
+      "mem": 69,
+      "act": 5
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 2.9,
-      "mem": 548,
-      "act": 2
+      "cpu": 1.0,
+      "mem": 1292,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.3,
-      "mem": 173,
+      "cpu": 0.9,
+      "mem": 369,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 172,
+      "cpu": 0.2,
+      "mem": 365,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1112,
-      "act": 4
+      "cpu": 0.4,
+      "mem": 1182,
+      "act": 3
     }
   ],
   "logs": [
-    {
-      "t": "18:25:16",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "18:25:17",
-      "tag": "[JOIN]",
-      "msg": "PvP 竞技: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "18:26:28",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "18:26:28",
-      "tag": "[JOIN]",
-      "msg": "PvP 竞技: f0urvvv joined the game",
-      "cls": "ok"
-    },
     {
       "t": "18:26:35",
       "tag": "[QUIT]",
@@ -226,6 +202,30 @@
       "tag": "[JOIN]",
       "msg": "登入服: Easy_wuyou joined the game",
       "cls": "ok"
+    },
+    {
+      "t": "18:41:35",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Diamonds!]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:43:08",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:43:08",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:45:01",
+      "tag": "[DEATH]",
+      "msg": "登入服: xiaohei_HZ fell from a high place",
+      "cls": "warn"
     }
   ],
   "heat": {
