@@ -1104,6 +1104,30 @@
     </div>
   </section>
 
+  <!-- 排行榜（真实数据） -->
+  <section id="board" style="padding-top:0">
+    <div class="inner">
+      <div class="sec-head r reveal">
+        <div class="sec-head-l">
+          <div class="sec-index">SEC.09 // LEADERBOARD · PVP</div>
+          <h2 class="sec-title">战绩排行</h2>
+          <div class="sec-en">TOP PLAYERS OF THE NODE</div>
+        </div>
+        <div class="sec-head-r"><div>TOP 10 / LIVE</div></div>
+      </div>
+      <div class="taskmgr reveal" style="margin-top:44px">
+        <div class="tm-bar">
+          <span>SUIXINGYU://leaderboard</span>
+          <span class="tm-live"><i></i>LIVE</span>
+        </div>
+        <div class="tm-grid tm-head">
+          <span>排名 RANK</span><span>玩家 PLAYER</span><span>击杀 KILLS</span><span>胜场 WINS</span><span>K/D</span>
+        </div>
+        <div id="lbBody"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- 扩展模块 B：实时日志流 -->
   <section id="feed" style="padding-top:0">
     <div class="inner">
@@ -2363,66 +2387,78 @@ let feedTimer = null;
 /* ============================================================
    21. 任务管理器：进程表 + 实时刷新
    ============================================================ */
-const PROCESSES = [
-  { n:'anarchy-core',      st:'run',  cpu:0.4, mem:512,  act:7 },
-  { n:'bedwars-arena',     st:'run',  cpu:1.2, mem:384,  act:6 },
-  { n:'chunk-loader',      st:'run',  cpu:2.8, mem:1024, act:8 },
-  { n:'redstone-engine',   st:'run',  cpu:0.9, mem:256,  act:5 },
-  { n:'crossplay-gateway', st:'run',  cpu:0.3, mem:192,  act:4 },
-  { n:'splat-scanner',     st:'idle', cpu:0.1, mem:128,  act:3 },
-  { n:'anticheat-watch',   st:'run',  cpu:0.2, mem:96,   act:7 },
-  { n:'backup-service',    st:'idle', cpu:0.0, mem:64,   act:1 }
-];
+/* ---- 真实数据版：从 status.json 读取 ---- */
 (function buildTaskMgr(){
   const box = $('#tmBody');
   if(!box) return;
   const ST = { run:{ t:'运行中', c:'' }, idle:{ t:'空闲', c:'idle' }, stop:{ t:'已停止', c:'stop' } };
+  let PROCESSES = [];
 
   function render(){
+    if(!PROCESSES.length){
+      box.innerHTML = '<div class="tm-row tm-grid"><span class="tm-name"><i></i>数据加载中...</span><span class="tm-val">-</span><span class="tm-val"><b>-</b>%</span><span class="tm-val"><b>-</b> MB</span><span class="tm-spark"></span></div>';
+      return;
+    }
     box.innerHTML = PROCESSES.map(p => {
       let spark = '';
-      for(let i = 0; i < 10; i++) spark += '<i class="' + (i < p.act ? 'on' : '') + '" style="height:' + (30 + Math.random() * 70) + '%"></i>';
+      const act = Math.max(0, Math.min(10, p.act || 0));
+      for(let i = 0; i < 10; i++) spark += '<i class="' + (i < act ? 'on' : '') + '"></i>';
       const st = ST[p.st] || ST.run;
       return '<div class="tm-row tm-grid">' +
         '<span class="tm-name"><i class="' + st.c + '"></i>' + p.n + '</span>' +
         '<span class="tm-val">' + st.t + '</span>' +
-        '<span class="tm-val"><b>' + p.cpu.toFixed(1) + '</b>%</span>' +
+        '<span class="tm-val"><b>' + (p.cpu||0).toFixed(1) + '</b>%</span>' +
         '<span class="tm-val"><b>' + p.mem + '</b> MB</span>' +
         '<span class="tm-spark">' + spark + '</span>' +
       '</div>';
     }).join('');
+    const tc = PROCESSES.reduce(function(s,p){return s+(p.cpu||0);},0);
+    const tm = PROCESSES.reduce(function(s,p){return s+(p.mem||0);},0);
+    const e1 = $('#tmTotal'); if(e1) e1.textContent = tc.toFixed(1) + '%';
+    const e2 = $('#tmMem'); if(e2) e2.textContent = tm + ' MB';
+    const sr = document.querySelector('#monitor .sec-head-r div');
+    if(sr) sr.textContent = 'ALL SYSTEMS NORMAL · ' + PROCESSES.length + ' NODES';
   }
-  render();
 
-  /* 每 1.6s 只更新数值（不重建 DOM），避免鼠标 hover 状态被打断 */
-  setInterval(() => {
-    let totalCpu = 0, totalMem = 0;
-    PROCESSES.forEach(p => {
-      if(p.st === 'run'){
-        p.cpu = Math.max(0, Math.min(9.9, p.cpu + (Math.random() - 0.5) * 0.5));
-        p.mem = Math.max(32, Math.round(p.mem + (Math.random() - 0.5) * 24));
-        p.act = Math.max(1, Math.min(10, p.act + (Math.random() < 0.4 ? (Math.random() < 0.5 ? -1 : 1) : 0)));
-      }
-      totalCpu += p.cpu; totalMem += p.mem;
-    });
-    const rows = box.querySelectorAll('.tm-row');
-    rows.forEach((row, i) => {
-      const p = PROCESSES[i];
-      if(!p) return;
-      const c = row.children;
-      if(c[2]) c[2].innerHTML = '<b>' + p.cpu.toFixed(1) + '</b>%';
-      if(c[3]) c[3].innerHTML = '<b>' + p.mem + '</b> MB';
-      if(c[4]){
-        const bars = c[4].children;
-        for(let k = 0; k < bars.length; k++){
-          if(k < p.act) bars[k].classList.add('on'); else bars[k].classList.remove('on');
-        }
-      }
-    });
-    const tl = $('#tmTotal'), tm = $('#tmMem');
-    if(tl) tl.textContent = totalCpu.toFixed(1) + '%';
-    if(tm) tm.textContent = totalMem + ' MB';
-  }, 1600);
+  function load(){
+    fetch('status.json?t=' + Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(d){ if(d && d.processes && d.processes.length){ PROCESSES = d.processes; render(); } })
+      .catch(function(){ render(); });
+  }
+  load();
+  setInterval(load, 30000);
+})();
+
+/* ---- 排行榜（真实数据） ---- */
+(function buildLeaderboard(){
+  const box = $('#lbBody');
+  if(!box) return;
+  function render(rows){
+    if(!rows || !rows.length){
+      box.innerHTML = '<div class="tm-row tm-grid"><span class="tm-name"><i class="idle"></i>暂无战绩，等你来开第一局</span><span class="tm-val">-</span><span class="tm-val">-</span><span class="tm-val">-</span><span class="tm-val">-</span></div>';
+      return;
+    }
+    box.innerHTML = rows.slice(0,10).map(function(r,i){
+      const nm = r.name || ('Player-' + String(r.uuid||'').slice(0,4));
+      const kd = r.deaths ? (r.kills / r.deaths).toFixed(2) : String(r.kills);
+      return '<div class="tm-row tm-grid">' +
+        '<span class="tm-name"><i></i>#' + (i+1) + '</span>' +
+        '<span class="tm-val">' + nm + '</span>' +
+        '<span class="tm-val"><b>' + r.kills + '</b></span>' +
+        '<span class="tm-val"><b>' + r.wins + '</b></span>' +
+        '<span class="tm-val">' + kd + '</span>' +
+      '</div>';
+    }).join('');
+  }
+  function load(){
+    fetch('status.json?t=' + Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(d){ render(d.leaderboard); })
+      .catch(function(){ render([]); });
+  }
+  load();
+  setInterval(load, 30000);
 })();
 
 /* ============================================================

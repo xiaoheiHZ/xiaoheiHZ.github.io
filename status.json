@@ -1,0 +1,82 @@
+{
+  "updated": "2026-09-13T13:58:29+08:00",
+  "online": true,
+  "latency": 53,
+  "players": {
+    "online": 0,
+    "max": 100,
+    "list": []
+  },
+  "motd": "碎星屿 · 无规则生存 | 起床战争 | PvP",
+  "version": "26.2",
+  "servers": [
+    {
+      "name": "登入服",
+      "online": true,
+      "players": 0
+    },
+    {
+      "name": "生存服",
+      "online": true,
+      "players": 0
+    },
+    {
+      "name": "起床战争",
+      "online": true,
+      "players": 0
+    },
+    {
+      "name": "PvP 竞技",
+      "online": true,
+      "players": 0
+    }
+  ],
+  "leaderboard": [
+    {
+      "uuid": "6812e040-9a3a-3232-9d90-8385bc2c795a",
+      "name": "f0urvvv",
+      "kills": 1,
+      "wins": 1,
+      "losses": 0,
+      "deaths": 0
+    }
+  ],
+  "note": "数据每 5 分钟自动刷新",
+  "processes": [
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 298,
+      "act": 2
+    },
+    {
+      "n": "登入服",
+      "st": "run",
+      "cpu": 0.2,
+      "mem": 1151,
+      "act": 2
+    },
+    {
+      "n": "生存服",
+      "st": "run",
+      "cpu": 0.3,
+      "mem": 1199,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.1,
+      "mem": 954,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.1,
+      "mem": 1380,
+      "act": 2
+    }
+  ]
+}
