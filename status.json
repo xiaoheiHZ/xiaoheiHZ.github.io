@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T17:23:43+08:00",
+  "updated": "2026-09-13T17:34:07+08:00",
   "online": true,
-  "latency": 45,
+  "latency": 44,
   "players": {
     "online": 2,
     "max": 100,
@@ -46,88 +46,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 371,
+      "cpu": 0.0,
+      "mem": 117,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1608,
+      "cpu": 0.5,
+      "mem": 924,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 658,
+      "cpu": 0.6,
+      "mem": 165,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1422,
+      "cpu": 1.1,
+      "mem": 1046,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 631,
+      "cpu": 0.4,
+      "mem": 115,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "16:35:51",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "16:35:51",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "16:41:36",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "16:47:01",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "16:49:32",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "16:49:36",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "16:55:39",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "16:55:44",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
     {
       "t": "16:56:30",
       "tag": "[QUIT]",
@@ -177,12 +129,6 @@
       "cls": "ok"
     },
     {
-      "t": "17:12:56",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (36.618s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "17:14:41",
       "tag": "[成就]",
       "msg": "登入服: f0urvvv has made the advancement [Bring Home the Beacon]",
@@ -210,6 +156,60 @@
       "t": "17:18:28",
       "tag": "[QUIT]",
       "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "17:26:08",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:26:08",
+      "tag": "[JOIN]",
+      "msg": "登入服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:27:01",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "17:27:09",
+      "tag": "[QUIT]",
+      "msg": "登入服: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "17:32:17",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:32:18",
+      "tag": "[JOIN]",
+      "msg": "登入服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:32:52",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (22.785s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "17:33:38",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "17:33:44",
+      "tag": "[QUIT]",
+      "msg": "登入服: f0urvvv left the game",
       "cls": "warn"
     }
   ],
