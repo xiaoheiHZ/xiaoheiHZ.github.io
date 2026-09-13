@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-13T17:44:29+08:00",
+  "updated": "2026-09-13T17:49:39+08:00",
   "online": true,
-  "latency": 44,
+  "latency": 42,
   "players": {
-    "online": 2,
+    "online": 3,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "生存服",
@@ -35,8 +35,8 @@
     {
       "uuid": "6812e040-9a3a-3232-9d90-8385bc2c795a",
       "name": "f0urvvv",
-      "kills": 2,
-      "wins": 2,
+      "kills": 3,
+      "wins": 3,
       "losses": 0,
       "deaths": 0
     }
@@ -46,58 +46,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 1.3,
-      "mem": 358,
-      "act": 4
+      "cpu": 0.1,
+      "mem": 291,
+      "act": 5
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 1545,
-      "act": 2
+      "cpu": 0.8,
+      "mem": 1596,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.3,
-      "mem": 445,
+      "cpu": 0.7,
+      "mem": 325,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.2,
-      "mem": 1335,
+      "cpu": 0.8,
+      "mem": 1318,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 6.0,
-      "mem": 1452,
+      "cpu": 0.6,
+      "mem": 1458,
       "act": 4
     }
   ],
   "logs": [
-    {
-      "t": "17:16:01",
-      "tag": "[成就]",
-      "msg": "登入服: xiaohei_HZ has made the advancement [Diamonds!]",
-      "cls": "ok"
-    },
-    {
-      "t": "17:18:24",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "17:18:28",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
     {
       "t": "17:26:08",
       "tag": "[JOIN]",
@@ -210,6 +192,24 @@
       "t": "17:41:43",
       "tag": "[JOIN]",
       "msg": "PvP 竞技: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:48:41",
+      "tag": "[JOIN]",
+      "msg": "登入服: Easy_wuyou joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:49:11",
+      "tag": "[QUIT]",
+      "msg": "登入服: Easy_wuyou left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "17:49:16",
+      "tag": "[JOIN]",
+      "msg": "登入服: Easy_wuyou joined the game",
       "cls": "ok"
     }
   ],
