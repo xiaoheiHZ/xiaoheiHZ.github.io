@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T16:57:49+08:00",
+  "updated": "2026-09-13T17:02:55+08:00",
   "online": true,
-  "latency": 40,
+  "latency": 57,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "生存服",
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -47,51 +47,39 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 345,
+      "mem": 286,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1397,
-      "act": 2
+      "cpu": 0.1,
+      "mem": 1387,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.3,
-      "mem": 1027,
+      "cpu": 0.6,
+      "mem": 763,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 3.3,
-      "mem": 1280,
-      "act": 4
+      "cpu": 0.6,
+      "mem": 1048,
+      "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 474,
+      "cpu": 0.4,
+      "mem": 896,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "16:21:23",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "16:23:40",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
     {
       "t": "16:23:44",
       "tag": "[QUIT]",
@@ -195,12 +183,6 @@
       "cls": "ok"
     },
     {
-      "t": "16:56:12",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (17.973s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "16:56:30",
       "tag": "[QUIT]",
       "msg": "登入服: xiaohei_HZ left the game",
@@ -211,6 +193,24 @@
       "tag": "[QUIT]",
       "msg": "登入服: f0urvvv left the game",
       "cls": "warn"
+    },
+    {
+      "t": "17:01:51",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:01:52",
+      "tag": "[JOIN]",
+      "msg": "登入服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:02:20",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (16.777s)! For help, type \"help\"",
+      "cls": "ok"
     }
   ],
   "heat": {
