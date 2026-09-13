@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T15:55:25+08:00",
+  "updated": "2026-09-13T16:00:34+08:00",
   "online": true,
-  "latency": 56,
+  "latency": 46,
   "players": {
     "online": 2,
     "max": 100,
@@ -46,33 +46,58 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.8,
-      "mem": 122,
+      "cpu": 0.1,
+      "mem": 206,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.7,
-      "mem": 835,
+      "cpu": 0.7,
+      "mem": 1288,
       "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.2,
-      "mem": 143,
+      "cpu": 1.7,
+      "mem": 286,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 38.3,
+      "mem": 615,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.9,
-      "mem": 144,
+      "mem": 334,
       "act": 2
     }
   ],
   "logs": [
+    {
+      "t": "15:27:10",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "15:27:19",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "15:29:22",
+      "tag": "[JOIN]",
+      "msg": "登入服: f0urvvv joined the game",
+      "cls": "ok"
+    },
     {
       "t": "15:29:59",
       "tag": "[QUIT]",
@@ -128,12 +153,6 @@
       "cls": "ok"
     },
     {
-      "t": "15:50:22",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (13.139s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "15:51:34",
       "tag": "[QUIT]",
       "msg": "登入服: f0urvvv left the game",
@@ -164,33 +183,9 @@
       "cls": "warn"
     },
     {
-      "t": "15:51:43",
-      "tag": "[JOIN]",
-      "msg": "起床战争: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
       "t": "15:51:47",
       "tag": "[QUIT]",
       "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "15:51:48",
-      "tag": "[JOIN]",
-      "msg": "起床战争: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "15:55:16",
-      "tag": "[QUIT]",
-      "msg": "起床战争: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "15:55:16",
-      "tag": "[QUIT]",
-      "msg": "起床战争: xiaohei_HZ left the game",
       "cls": "warn"
     },
     {
@@ -203,6 +198,18 @@
       "t": "15:55:17",
       "tag": "[JOIN]",
       "msg": "登入服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "15:59:33",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "16:00:14",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
       "cls": "ok"
     }
   ],
