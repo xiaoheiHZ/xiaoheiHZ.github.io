@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T16:42:10+08:00",
+  "updated": "2026-09-13T16:47:33+08:00",
   "online": true,
-  "latency": 41,
+  "latency": 109,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 2
     },
     {
       "name": "生存服",
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -46,46 +46,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 339,
+      "cpu": 0.1,
+      "mem": 342,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 1338,
-      "act": 3
+      "cpu": 0.3,
+      "mem": 1339,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.3,
-      "mem": 398,
+      "cpu": 0.8,
+      "mem": 415,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.5,
-      "mem": 1199,
-      "act": 3
+      "cpu": 1.7,
+      "mem": 1129,
+      "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 495,
+      "cpu": 0.4,
+      "mem": 535,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "16:05:11",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
     {
       "t": "16:05:15",
       "tag": "[QUIT]",
@@ -201,16 +195,22 @@
       "cls": "ok"
     },
     {
-      "t": "16:36:22",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (19.989s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "16:41:36",
       "tag": "[QUIT]",
       "msg": "登入服: xiaohei_HZ left the game",
       "cls": "warn"
+    },
+    {
+      "t": "16:47:01",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "16:47:29",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (15.298s)! For help, type \"help\"",
+      "cls": "ok"
     }
   ],
   "heat": {
