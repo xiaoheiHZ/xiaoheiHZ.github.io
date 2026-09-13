@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T18:36:17+08:00",
+  "updated": "2026-09-13T18:41:24+08:00",
   "online": true,
-  "latency": 65,
+  "latency": 60,
   "players": {
     "online": 2,
     "max": 100,
@@ -35,8 +35,8 @@
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 8,
-      "wins": 8,
+      "kills": 12,
+      "wins": 12,
       "losses": 5,
       "deaths": 5
     },
@@ -45,8 +45,8 @@
       "name": "f0urvvv",
       "kills": 5,
       "wins": 5,
-      "losses": 8,
-      "deaths": 8
+      "losses": 12,
+      "deaths": 12
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -54,77 +54,47 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 330,
+      "cpu": 0.4,
+      "mem": 93,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 43,
+      "mem": 58,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1021,
+      "cpu": 2.9,
+      "mem": 548,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 260,
+      "cpu": 1.3,
+      "mem": 173,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 890,
+      "cpu": 0.5,
+      "mem": 172,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 1329,
+      "cpu": 0.5,
+      "mem": 1112,
       "act": 4
     }
   ],
   "logs": [
-    {
-      "t": "18:15:04",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "18:15:08",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "18:24:06",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "18:24:12",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "18:24:46",
-      "tag": "[启动]",
-      "msg": "PvP 竞技: Done (21.968s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "18:25:16",
       "tag": "[QUIT]",
@@ -226,6 +196,36 @@
       "tag": "[DEATH]",
       "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
       "cls": "warn"
+    },
+    {
+      "t": "18:37:23",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [A Throwaway Joke]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:38:00",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
+      "cls": "warn"
+    },
+    {
+      "t": "18:41:07",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: f0urvvv has made the advancement [Bring Home the Beacon]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:41:07",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Bring Home the Beacon]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:41:21",
+      "tag": "[JOIN]",
+      "msg": "登入服: Easy_wuyou joined the game",
+      "cls": "ok"
     }
   ],
   "heat": {
