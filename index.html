@@ -2172,17 +2172,8 @@ function drawRadar(){
 /* ============================================================
    19. 扩展模块 A：区域热度图 + 交互
    ============================================================ */
-const MAP_ZONES = [
-  { n:'出生点 SPAWN',      x:330, y:238, r:38, k:'hi', v:'38.2%' },
-  { n:'床战岛 BED WARS',   x:168, y:124, r:27, k:'cy', v:'24.7%' },
-  { n:'废墟带 RUINS',      x:476, y:332, r:21, k:'',   v:'14.1%' },
-  { n:'工程区 BUILD',      x:246, y:356, r:24, k:'',   v:'16.5%' },
-  { n:'红石工房 REDSTONE', x:534, y:142, r:16, k:'cy', v:'9.3%'  },
-  { n:'交易市场 TRADE',    x:406, y:172, r:19, k:'',   v:'11.8%' },
-  { n:'边境前线 FRONTIER', x:92,  y:322, r:14, k:'hi', v:'7.6%'  },
-  { n:'地下网道 MINES',    x:300, y:404, r:12, k:'',   v:'5.4%'  }
-];
-
+/* ---- 真实数据版：区域热度（30天采样） ---- */
+let MAP_ZONES = [];
 (function buildMap(){
   const svg = $('#mapSvg');
   if(!svg) return;
@@ -2216,20 +2207,11 @@ const MAP_ZONES = [
   ay.setAttribute('stroke', '#b6b8b3'); ay.setAttribute('stroke-width', '1.4');
   svg.appendChild(ay);
 
-  // 连接线
-  for(let i = 0; i < MAP_ZONES.length - 1; i++){
-    const a = MAP_ZONES[i], b = MAP_ZONES[i+1];
-    const l = document.createElementNS(NS, 'line');
-    l.setAttribute('x1', a.x); l.setAttribute('y1', a.y);
-    l.setAttribute('x2', b.x); l.setAttribute('y2', b.y);
-    l.setAttribute('stroke', '#b6b8b3');
-    l.setAttribute('stroke-width', '1');
-    l.setAttribute('stroke-dasharray', '4 6');
-    l.setAttribute('opacity', '.5');
-    svg.appendChild(l);
-  }
+  // 动态层
+  const group = document.createElementNS(NS, 'g');
+  svg.appendChild(group);
 
-  // 悬停提示气泡
+  // 提示气泡
   const wrap = svg.parentElement;
   const tip = document.createElement('div');
   tip.className = 'zone-tip';
@@ -2237,150 +2219,165 @@ const MAP_ZONES = [
   let locked = null;
 
   function placeTip(z){
-    const x = svg.offsetLeft + (z.x / W) * svg.clientWidth;
-    const y = svg.offsetTop + (z.y / H) * svg.clientHeight;
+    const x = svg.offsetLeft + (z.sx / W) * svg.clientWidth;
+    const y = svg.offsetTop + (z.sy / H) * svg.clientHeight;
     tip.style.left = x + 'px';
     tip.style.top = y + 'px';
     tip.innerHTML = '<span>' + z.n + '</span><span class="zt-v">' + z.v + '</span>';
   }
 
-  // 热区
-  MAP_ZONES.forEach((z, i) => {
-    const color = z.k === 'hi' ? '#b8a900' : (z.k === 'cy' ? '#14d0d0' : '#101110');
-    const halo = document.createElementNS(NS, 'circle');
-    halo.setAttribute('cx', z.x); halo.setAttribute('cy', z.y); halo.setAttribute('r', z.r);
-    halo.setAttribute('fill', color);
-    halo.setAttribute('class', 'zone-halo');
-    halo.style.animationDelay = (i * 0.28) + 's';
-    halo.style.pointerEvents = 'none';
-    svg.appendChild(halo);
-
-    const dot = document.createElementNS(NS, 'circle');
-    dot.setAttribute('cx', z.x); dot.setAttribute('cy', z.y);
-    dot.setAttribute('r', Math.max(4, z.r * 0.22));
-    dot.setAttribute('fill', color);
-    dot.setAttribute('stroke', '#101110');
-    dot.setAttribute('stroke-width', '1.5');
-    dot.style.pointerEvents = 'none';
-    svg.appendChild(dot);
-
-    const t = document.createElementNS(NS, 'text');
-    t.setAttribute('x', z.x + z.r + 8);
-    t.setAttribute('y', z.y + 4);
-    t.setAttribute('font-size', '11');
-    t.setAttribute('font-family', 'JetBrains Mono, Consolas, monospace');
-    t.setAttribute('fill', '#4a4c48');
-    t.setAttribute('letter-spacing', '.06em');
-    t.textContent = z.n;
-    t.style.pointerEvents = 'none';
-    svg.appendChild(t);
-
-    /* 透明命中区：让热区可悬停 / 可点击 */
-    const hit = document.createElementNS(NS, 'circle');
-    hit.setAttribute('cx', z.x); hit.setAttribute('cy', z.y);
-    hit.setAttribute('r', Math.max(18, z.r));
-    hit.setAttribute('fill', 'transparent');
-    hit.style.cursor = 'pointer';
-    hit.addEventListener('mouseenter', () => {
-      if(locked && locked !== hit) return;
-      halo.setAttribute('r', z.r * 1.25);
-      dot.setAttribute('r', Math.max(5, z.r * 0.3));
-      t.setAttribute('fill', '#101110');
-      placeTip(z);
-      tip.classList.add('on');
-      SFX.hover();
-    });
-    hit.addEventListener('mouseleave', () => {
-      if(locked === hit) return;
-      halo.setAttribute('r', z.r);
-      dot.setAttribute('r', Math.max(4, z.r * 0.22));
-      t.setAttribute('fill', '#4a4c48');
-      tip.classList.remove('on');
-    });
-    hit.addEventListener('click', () => {
-      if(locked === hit){
-        locked = null;
-        halo.setAttribute('r', z.r);
-        tip.classList.remove('on');
-        return;
-      }
-      locked = hit;
-      placeTip(z);
-      tip.classList.add('on');
-      SFX.scan();
-    });
-    svg.appendChild(hit);
-  });
-
-  // 图例
-  const lg = $('#mapLegend');
-  if(lg){
-    lg.innerHTML = MAP_ZONES.map(z =>
-      '<div class="m-row"><span class="m-dot ' + (z.k === 'hi' ? 'hi' : (z.k === 'cy' ? 'cy' : '')) + '"></span>' +
-      '<span class="m-k">' + z.n + '</span><span class="m-v">' + z.v + '</span></div>'
-    ).join('');
+  // 世界坐标 -> SVG 投影
+  function project(zones){
+    let maxR = 1000;
+    zones.forEach(z => { maxR = Math.max(maxR, Math.abs(z.x), Math.abs(z.z)); });
+    maxR *= 1.2;
+    const scale = Math.min(W, H) / (2 * maxR);
+    return zones.map(z => ({
+      n: z.name + ' (' + z.count + '次)',
+      v: (z.pct || 0) + '%',
+      k: (z.pct || 0) > 25 ? 'hi' : '',
+      sx: W/2 + z.x * scale,
+      sy: H/2 + z.z * scale,
+      r: Math.max(9, Math.min(44, 9 + (z.pct || 0) * 0.95))
+    }));
   }
+
+  function render(){
+    group.innerHTML = '';
+    MAP_ZONES.forEach((z, i) => {
+      const color = z.k === 'hi' ? '#b8a900' : '#101110';
+      const halo = document.createElementNS(NS, 'circle');
+      halo.setAttribute('cx', z.sx); halo.setAttribute('cy', z.sy); halo.setAttribute('r', z.r);
+      halo.setAttribute('fill', color);
+      halo.setAttribute('class', 'zone-halo');
+      halo.style.animationDelay = (i * 0.28) + 's';
+      halo.style.pointerEvents = 'none';
+      group.appendChild(halo);
+
+      const dot = document.createElementNS(NS, 'circle');
+      dot.setAttribute('cx', z.sx); dot.setAttribute('cy', z.sy);
+      dot.setAttribute('r', Math.max(4, z.r * 0.22));
+      dot.setAttribute('fill', color);
+      dot.setAttribute('stroke', '#101110');
+      dot.setAttribute('stroke-width', '1.5');
+      dot.style.pointerEvents = 'none';
+      group.appendChild(dot);
+
+      const t = document.createElementNS(NS, 'text');
+      t.setAttribute('x', z.sx + z.r + 8);
+      t.setAttribute('y', z.sy + 4);
+      t.setAttribute('font-size', '11');
+      t.setAttribute('font-family', 'JetBrains Mono, Consolas, monospace');
+      t.setAttribute('fill', '#4a4c48');
+      t.setAttribute('letter-spacing', '.06em');
+      t.textContent = z.n;
+      t.style.pointerEvents = 'none';
+      group.appendChild(t);
+
+      const hit = document.createElementNS(NS, 'circle');
+      hit.setAttribute('cx', z.sx); hit.setAttribute('cy', z.sy);
+      hit.setAttribute('r', Math.max(18, z.r));
+      hit.setAttribute('fill', 'transparent');
+      hit.style.cursor = 'pointer';
+      hit.addEventListener('mouseenter', () => {
+        if(locked && locked !== hit) return;
+        halo.setAttribute('r', z.r * 1.25);
+        t.setAttribute('fill', '#101110');
+        placeTip(z);
+        tip.classList.add('on');
+        if(window.SFX && SFX.hover) SFX.hover();
+      });
+      hit.addEventListener('mouseleave', () => {
+        if(locked === hit) return;
+        halo.setAttribute('r', z.r);
+        t.setAttribute('fill', '#4a4c48');
+        tip.classList.remove('on');
+      });
+      hit.addEventListener('click', () => {
+        if(locked === hit){
+          locked = null;
+          halo.setAttribute('r', z.r);
+          tip.classList.remove('on');
+          return;
+        }
+        locked = hit;
+        placeTip(z);
+        tip.classList.add('on');
+        if(window.SFX && SFX.scan) SFX.scan();
+      });
+      group.appendChild(hit);
+    });
+
+    // 图例
+    const lg = $('#mapLegend');
+    if(lg){
+      lg.innerHTML = MAP_ZONES.length ? MAP_ZONES.map(z =>
+        '<div class="m-row"><span class="m-dot ' + (z.k === 'hi' ? 'hi' : '') + '"></span>' +
+        '<span class="m-k">' + z.n + '</span><span class="m-v">' + z.v + '</span></div>'
+      ).join('') : '<div class="m-row"><span class="m-k">暂无采样数据，等玩家上线</span></div>';
+    }
+    // 副标题
+    const sub = document.querySelector('#map .sec-head-r div');
+    if(sub) sub.textContent = 'LIVE // 30D SAMPLES: ' + (window.__heatTotal || 0);
+  }
+
+  function load(){
+    fetch('status.json?t=' + Date.now()).then(r => r.json()).then(d => {
+      const h = d && d.heat ? d.heat : null;
+      if(!h) return;
+      window.__heatTotal = h.total || 0;
+      MAP_ZONES = project(h.zones || []);
+      render();
+    }).catch(() => {});
+  }
+  load(); setInterval(load, 120000);
 })();
 
 /* ============================================================
    20. 扩展模块 B：实时日志流（可交互滚动）
    ============================================================ */
-const FEED_POOL = [
-  ['[OK]',   '玩家长时间在线奖励已结算', 'ok'],
-  ['[SYNC]', '存档分片写入完成 (24.8 MB)', 'ok'],
-  ['[INFO]', '跨平台网关握手成功', 'info'],
-  ['[OK]',   'TPS 采样 20.0 / 无卡顿', 'ok'],
-  ['[WARN]', '区块加载延迟 42ms', 'warn'],
-  ['[INFO]', '新玩家接入: 来自基岩版客户端', 'info'],
-  ['[OK]',   '建筑扫描完成 +3 个高斯斑点', 'ok'],
-  ['[INFO]', '床战竞技场开始新一局 4v4', 'info'],
-  ['[OK]',   '节点心跳正常', 'ok'],
-  ['[WARN]', '检测到高频爆炸请求，已记录', 'warn'],
-  ['[INFO]', '玩家离开节点: 会话时长 2h14m', 'info'],
-  ['[OK]',   '定时备份校验通过', 'ok'],
-  ['[SCAN]', '点云重建任务 98.4% 完成', 'info'],
-  ['[OK]',   '反作弊巡检通过 / 无异常', 'ok']
-];
+/* ---- 真实数据版：实时日志（服务器日志流） ---- */
 let feedTimer = null;
 (function buildFeed(){
   const body = $('#feedBody');
   if(!body) return;
+  let manual = false;
+  const foot = $('#feedFoot');
+  const stateText = $('#ffStateText');
+
+  function atBottom(){ return (body.scrollHeight - body.scrollTop - body.clientHeight) < 26; }
+  body.addEventListener('scroll', () => {
+    const stick = atBottom();
+    manual = !stick;
+    body.classList.toggle('user-scrolled', manual);
+    if(foot) foot.classList.toggle('paused', manual);
+    if(stateText) stateText.textContent = manual ? 'PAUSED · 手动浏览中' : 'AUTO-SCROLL';
+  }, { passive: true });
+
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  let lastKey = '';
+  function render(logs){
+    body.innerHTML = logs.map(function(l){
+      return '<div class="feed-line"><span class="ft">' + esc(l.t || '') + '</span>' +
+             '<span class="fk ' + esc(l.cls || '') + '">' + esc(l.tag || '') + '</span>' +
+             '<span class="fv' + (l.cls === 'ok' ? ' hl' : '') + '">' + esc(l.msg || '') + '</span></div>';
+    }).join('');
+    if(!manual) body.scrollTop = body.scrollHeight;
+  }
+
+  function load(){
+    fetch('status.json?t=' + Date.now()).then(function(r){ return r.json(); }).then(function(d){
+      const logs = (d && d.logs) ? d.logs : [];
+      const key = logs.length ? (logs[logs.length-1].t + '|' + logs.length) : '';
+      if(logs.length && key !== lastKey){ lastKey = key; render(logs); }
+    }).catch(function(){});
+  }
+
   window.__startFeed = function(){
     if(feedTimer) return;
-    let seq = 0;
-    function stamp(){
-      const d = new Date();
-      return [d.getHours(), d.getMinutes(), d.getSeconds()].map(v => String(v).padStart(2,'0')).join(':');
-    }
-
-    const foot = $('#feedFoot');
-    const stateText = $('#ffStateText');
-    let manual = false;   /* true = 用户手动滚动中，暂停自动跟随 */
-
-    function atBottom(){
-      return (body.scrollHeight - body.scrollTop - body.clientHeight) < 26;
-    }
-    body.addEventListener('scroll', () => {
-      const stick = atBottom();
-      manual = !stick;
-      body.classList.toggle('user-scrolled', manual);
-      if(foot) foot.classList.toggle('paused', manual);
-      if(stateText) stateText.textContent = manual ? 'PAUSED · 手动浏览中' : 'AUTO-SCROLL';
-    }, { passive: true });
-
-    function push(){
-      const item = FEED_POOL[Math.floor(Math.random() * FEED_POOL.length)];
-      const line = document.createElement('div');
-      line.className = 'feed-line';
-      line.innerHTML = '<span class="ft">' + stamp() + '</span><span class="fk ' + item[2] + '">' + item[0] + '</span><span class="fv' + (item[2] === 'ok' ? ' hl' : '') + '">' + item[1] + '</span>';
-      body.appendChild(line);
-      while(body.children.length > 90) body.removeChild(body.firstChild);
-      seq++;
-      if(!manual) body.scrollTop = body.scrollHeight;
-    }
-    for(let i = 0; i < 12; i++) push();
-    body.scrollTop = body.scrollHeight;
-    feedTimer = setInterval(push, 2600);
+    load();
+    feedTimer = setInterval(load, 60000);
   };
 })();
 
