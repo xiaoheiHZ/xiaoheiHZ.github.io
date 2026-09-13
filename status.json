@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T16:05:58+08:00",
+  "updated": "2026-09-13T16:11:06+08:00",
   "online": true,
-  "latency": 55,
+  "latency": 41,
   "players": {
     "online": 2,
     "max": 100,
@@ -46,46 +46,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 358,
+      "cpu": 0.0,
+      "mem": 351,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1269,
+      "cpu": 0.1,
+      "mem": 1239,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.2,
-      "mem": 317,
+      "cpu": 0.7,
+      "mem": 438,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 3.0,
-      "mem": 1251,
+      "cpu": 0.6,
+      "mem": 1408,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 356,
+      "cpu": 0.1,
+      "mem": 917,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "15:29:59",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
     {
       "t": "15:30:08",
       "tag": "[JOIN]",
@@ -211,6 +205,12 @@
       "tag": "[QUIT]",
       "msg": "登入服: xiaohei_HZ left the game",
       "cls": "warn"
+    },
+    {
+      "t": "16:09:59",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaohei_HZ has made the advancement [Cover Me with Diamonds]",
+      "cls": "ok"
     }
   ],
   "heat": {
