@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-13T18:51:38+08:00",
+  "updated": "2026-09-13T18:56:47+08:00",
   "online": true,
-  "latency": 50,
+  "latency": 47,
   "players": {
-    "online": 3,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 3
+      "players": 1
     }
   ],
   "leaderboard": [
@@ -54,131 +54,47 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 302,
-      "act": 5
+      "cpu": 0.2,
+      "mem": 39,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 70,
-      "act": 5
+      "mem": 31,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1217,
+      "cpu": 0.6,
+      "mem": 734,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 463,
+      "cpu": 2.2,
+      "mem": 244,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 431,
+      "cpu": 0.7,
+      "mem": 262,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1369,
-      "act": 5
+      "cpu": 0.7,
+      "mem": 435,
+      "act": 3
     }
   ],
   "logs": [
-    {
-      "t": "18:28:53",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "18:30:50",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "18:31:09",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "18:31:09",
-      "tag": "[JOIN]",
-      "msg": "PvP 竞技: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "18:34:07",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "18:37:23",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [A Throwaway Joke]",
-      "cls": "ok"
-    },
-    {
-      "t": "18:38:00",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "18:41:07",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: f0urvvv has made the advancement [Bring Home the Beacon]",
-      "cls": "ok"
-    },
-    {
-      "t": "18:41:07",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Bring Home the Beacon]",
-      "cls": "ok"
-    },
-    {
-      "t": "18:41:21",
-      "tag": "[JOIN]",
-      "msg": "登入服: Easy_wuyou joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "18:41:35",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Diamonds!]",
-      "cls": "ok"
-    },
-    {
-      "t": "18:43:08",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "18:43:08",
-      "tag": "[QUIT]",
-      "msg": "PvP 竞技: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "18:45:01",
-      "tag": "[DEATH]",
-      "msg": "登入服: xiaohei_HZ fell from a high place",
-      "cls": "warn"
-    },
     {
       "t": "18:47:27",
       "tag": "[QUIT]",
@@ -226,6 +142,90 @@
       "tag": "[JOIN]",
       "msg": "PvP 竞技: Easy_wuyou joined the game",
       "cls": "ok"
+    },
+    {
+      "t": "18:52:43",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: Easy_wuyou left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:52:49",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:52:50",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:52:56",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:53:20",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:53:34",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:53:37",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:53:56",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:53:56",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:54:01",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:54:01",
+      "tag": "[JOIN]",
+      "msg": "PvP 竞技: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:54:23",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "18:54:24",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "18:54:42",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
