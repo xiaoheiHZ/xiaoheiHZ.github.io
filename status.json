@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-13T15:24:38+08:00",
-  "online": false,
-  "latency": null,
+  "updated": "2026-09-13T15:29:45+08:00",
+  "online": true,
+  "latency": 38,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "生存服",
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "PvP 竞技",
@@ -46,82 +46,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 255,
-      "act": 2
+      "cpu": 0.2,
+      "mem": 305,
+      "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1366,
-      "act": 2
+      "cpu": 1.1,
+      "mem": 1396,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1441,
+      "cpu": 1.1,
+      "mem": 338,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1236,
-      "act": 2
+      "cpu": 1.0,
+      "mem": 919,
+      "act": 3
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1298,
+      "cpu": 0.5,
+      "mem": 1348,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "13:38:27",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "13:38:56",
-      "tag": "[启动]",
-      "msg": "PvP 竞技: Done (17.740s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "13:40:03",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "13:40:05",
-      "tag": "[JOIN]",
-      "msg": "PvP 竞技: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "13:40:40",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "13:40:40",
-      "tag": "[JOIN]",
-      "msg": "PvP 竞技: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "13:41:23",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaohei_HZ was slain by f0urvvv",
-      "cls": "warn"
-    },
     {
       "t": "13:41:28",
       "tag": "[QUIT]",
@@ -210,6 +168,48 @@
       "t": "15:22:40",
       "tag": "[启动]",
       "msg": "起床战争: Done (13.317s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "15:26:20",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "15:26:37",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "15:26:37",
+      "tag": "[JOIN]",
+      "msg": "PvP 竞技: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "15:27:10",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "15:27:10",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "15:27:19",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "15:29:22",
+      "tag": "[JOIN]",
+      "msg": "登入服: f0urvvv joined the game",
       "cls": "ok"
     }
   ],
