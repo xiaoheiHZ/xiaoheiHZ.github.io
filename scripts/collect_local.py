@@ -20,6 +20,15 @@ STATS_YML = r"D:\pvp server\plugins\StarPvP\stats.yml"
 RCON_ANY = r"D:\mc-velocity\rcon_any.py"
 CN = timezone(timedelta(hours=8))
 
+LOG_FILES = [
+    ("生存服", r"D:\minecraft server\logs\latest.log"),
+    ("登入服", r"D:\login server\logs\latest.log"),
+    ("起床战争", r"D:\bedwars server\logs\latest.log"),
+    ("PvP 竞技", r"D:\pvp server\logs\latest.log"),
+]
+
+HEAT_FILE = os.path.join(BASE, "heat_history.json")
+
 USERCACHE_FILES = [
     r"D:\pvp server\usercache.json",
     r"D:\minecraft server\usercache.json",
@@ -129,6 +138,116 @@ def collect_processes(server_players):
         return []
 
 
+def mc_cmd(port, password, cmd):
+    """执行任意 RCON 命令，返回文本"""
+    try:
+        out = subprocess.run(
+            ["python", RCON_ANY, str(port), password, cmd],
+            capture_output=True, timeout=15)
+        raw = out.stdout
+        for enc in ("utf-8", "gbk"):
+            try:
+                return raw.decode(enc)
+            except Exception:
+                continue
+        return raw.decode("utf-8", "replace")
+    except Exception:
+        return ""
+
+
+def collect_logs(limit=22):
+    """采集各服日志中的真实事件（加入/离开/死亡/成就/聊天/启动）"""
+    events = []
+    noise = ("[RCON", "Thread RCON", "issued server command", "Grim", "pausing",
+             "checkForUpdates", "\tat ", "Server empty", "Starting minecraft server",
+             "Preparing", "Loaded ", "Advancement", "Saving", "Stopping")
+    for srv, path in LOG_FILES:
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, encoding="utf-8", errors="replace") as f:
+                lines = f.readlines()[-500:]
+        except Exception:
+            continue
+        for line in lines:
+            if "]: " not in line:
+                continue
+            mt = re.search(r"\[(\d{2}:\d{2}:\d{2})\]", line)
+            tstr = mt.group(1) if mt else ""
+            msg = line.split("]: ", 1)[1].strip()
+            if any(x in line for x in noise):
+                continue
+            tag, cls = None, ""
+            if "joined the game" in msg:
+                tag, cls = "[JOIN]", "ok"
+            elif "left the game" in msg:
+                tag, cls = "[QUIT]", "warn"
+            elif any(x in msg for x in ("slain by", "was killed", "burned to death", "drowned",
+                                        "fell from", "blew up", "shot by", "withered away")):
+                tag, cls = "[DEATH]", "warn"
+            elif "has made the advancement" in msg or "has completed the challenge" in msg:
+                tag, cls = "[成就]", "ok"
+            elif re.match(r"^\[?Not Secure\]?\s*<", msg) and ">" in msg:
+                tag, cls = "[CHAT]", "info"
+            elif "Done (" in msg:
+                tag, cls = "[启动]", "ok"
+            elif "RCON" in msg:
+                continue
+            if tag:
+                events.append({"t": tstr, "tag": tag, "msg": (srv + ": " + msg)[:90], "cls": cls})
+    events.sort(key=lambda e: e.get("t", ""))
+    return events[-limit:]
+
+
+def collect_heat():
+    """采集主服在线玩家坐标 -> 30 天热力历史 -> Top8 热区"""
+    text = mc_cmd(25576, "suxing2026", "minecraft:list")
+    names = []
+    m = re.search(r"online:\s*(.+)$", text, re.M)
+    if m:
+        names = [n.strip() for n in m.group(1).split(",") if n.strip()]
+
+    points = []
+    for n in names[:12]:
+        if not re.match(r"^\w{3,16}$", n):
+            continue
+        r = mc_cmd(25576, "suxing2026", "data get entity " + n + " Pos")
+        mm = re.search(r"\[([-\d.]+)d?,\s*([-\d.]+)d?,\s*([-\d.]+)d?\]", r)
+        if mm:
+            points.append({"name": n, "x": round(float(mm.group(1))), "z": round(float(mm.group(3)))})
+
+    hist = []
+    if os.path.exists(HEAT_FILE):
+        try:
+            hist = json.load(open(HEAT_FILE, encoding="utf-8"))
+        except Exception:
+            hist = []
+    ts = time.time()
+    for pt in points:
+        hist.append({"x": pt["x"], "z": pt["z"], "t": ts})
+    cutoff = ts - 30 * 86400
+    hist = [h for h in hist if h.get("t", 0) > cutoff][-50000:]
+    try:
+        json.dump(hist, open(HEAT_FILE, "w", encoding="utf-8"), ensure_ascii=False)
+    except Exception:
+        pass
+
+    from collections import Counter
+    grid = Counter()
+    for h in hist:
+        grid[(int(h["x"] // 512) * 512, int(h["z"] // 512) * 512)] += 1
+    total = sum(grid.values()) or 1
+    zones = []
+    for (gx, gz), cnt in grid.most_common(8):
+        zones.append({
+            "name": "X%d / Z%d" % (gx, gz),
+            "x": int(gx), "z": int(gz),
+            "count": int(cnt),
+            "pct": round(cnt * 100.0 / total, 1),
+        })
+    return {"zones": zones, "points": points, "total": len(hist)}
+
+
 def tcp_latency(host, port, timeout=5):
     try:
         start = time.time()
@@ -229,6 +348,8 @@ def main():
     # Velocity 的玩家数 = 全部之和
     players_by_name["Velocity 代理"] = total
     data["processes"] = collect_processes(players_by_name)
+    data["logs"] = collect_logs()
+    data["heat"] = collect_heat()
     data["updated"] = datetime.now(CN).isoformat(timespec="seconds")
 
     json.dump(data, open(STATUS, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
