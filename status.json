@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-13T19:51:45+08:00",
+  "updated": "2026-09-13T19:53:12+08:00",
   "online": true,
-  "latency": 561,
+  "latency": 56,
   "players": {
     "online": 0,
-    "max": 500,
+    "max": 100,
     "list": []
   },
-  "motd": "§r§9✦ 碎星屿服务器 ✦§r\n§r§a欢迎来到碎星屿！§r §r§e请登录后进入服务器§r\n§r§c✦ 请使用 26.2 客户端进入游戏 ✦§r",
-  "version": "Velocity 1.7.2-26.2",
+  "motd": "碎星屿 · 无规则生存 | 起床战争 | PvP",
+  "version": "26.2",
   "servers": [
     {
       "name": "登入服",
@@ -49,7 +49,15 @@
       "deaths": 12
     }
   ],
+  "note": "数据每 5 分钟自动刷新",
   "processes": [
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 81,
+      "act": 2
+    },
     {
       "n": "Velocity 代理",
       "st": "run",
@@ -58,38 +66,31 @@
       "act": 2
     },
     {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 59,
-      "act": 2
-    },
-    {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 766,
+      "cpu": 0.2,
+      "mem": 612,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.5,
-      "mem": 428,
+      "cpu": 0.8,
+      "mem": 590,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 490,
+      "cpu": 0.2,
+      "mem": 513,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 765,
+      "cpu": 0.2,
+      "mem": 453,
       "act": 2
     }
   ],
@@ -159,6 +160,5 @@
     "zones": [],
     "points": [],
     "total": 0
-  },
-  "note": "数据每 5 分钟自动刷新"
+  }
 }
