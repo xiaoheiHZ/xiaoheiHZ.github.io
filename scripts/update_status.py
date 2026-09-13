@@ -21,7 +21,7 @@ result = {
 if os.path.exists(OUT):
     try:
         old = json.load(open(OUT, encoding="utf-8"))
-        for k in ("servers", "leaderboard", "pvp_kb", "note"):
+        for k in ("servers", "leaderboard", "processes", "pvp_kb", "note"):
             if k in old:
                 result[k] = old[k]
     except Exception:
