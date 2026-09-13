@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T15:19:20+08:00",
+  "updated": "2026-09-13T15:24:38+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -53,29 +53,29 @@
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1369,
+      "cpu": 0.2,
+      "mem": 1366,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1443,
+      "cpu": 0.4,
+      "mem": 1441,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1070,
+      "cpu": 0.5,
+      "mem": 1236,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1323,
+      "cpu": 0.1,
+      "mem": 1298,
       "act": 2
     }
   ],
@@ -207,9 +207,9 @@
       "cls": "warn"
     },
     {
-      "t": "15:00:52",
+      "t": "15:22:40",
       "tag": "[启动]",
-      "msg": "起床战争: Done (12.724s)! For help, type \"help\"",
+      "msg": "起床战争: Done (13.317s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
