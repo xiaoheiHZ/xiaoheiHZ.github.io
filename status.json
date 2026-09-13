@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T17:18:26+08:00",
+  "updated": "2026-09-13T17:23:43+08:00",
   "online": true,
-  "latency": 33,
+  "latency": 45,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "生存服",
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -47,45 +47,39 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 369,
+      "mem": 371,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 1607,
-      "act": 4
+      "cpu": 0.2,
+      "mem": 1608,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.5,
-      "mem": 606,
+      "cpu": 1.0,
+      "mem": 658,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 15.6,
-      "mem": 1206,
-      "act": 2
+      "cpu": 0.4,
+      "mem": 1422,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 660,
+      "cpu": 0.3,
+      "mem": 631,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "16:29:59",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
     {
       "t": "16:35:51",
       "tag": "[JOIN]",
@@ -210,6 +204,12 @@
       "t": "17:18:24",
       "tag": "[QUIT]",
       "msg": "登入服: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "17:18:28",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
       "cls": "warn"
     }
   ],
