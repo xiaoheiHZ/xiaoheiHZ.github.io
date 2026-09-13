@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T15:29:45+08:00",
+  "updated": "2026-09-13T15:34:52+08:00",
   "online": true,
-  "latency": 38,
+  "latency": 55,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "生存服",
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 1
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -46,58 +46,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 305,
+      "cpu": 0.0,
+      "mem": 235,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 1396,
-      "act": 3
+      "cpu": 0.4,
+      "mem": 1399,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 338,
+      "cpu": 1.2,
+      "mem": 415,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 919,
-      "act": 3
+      "cpu": 0.5,
+      "mem": 1355,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.5,
-      "mem": 1348,
+      "mem": 1349,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "13:41:28",
-      "tag": "[QUIT]",
-      "msg": "PvP 竞技: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "13:41:31",
-      "tag": "[QUIT]",
-      "msg": "PvP 竞技: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "14:33:58",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
     {
       "t": "14:34:19",
       "tag": "[QUIT]",
@@ -211,6 +193,24 @@
       "tag": "[JOIN]",
       "msg": "登入服: f0urvvv joined the game",
       "cls": "ok"
+    },
+    {
+      "t": "15:29:59",
+      "tag": "[QUIT]",
+      "msg": "登入服: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "15:30:08",
+      "tag": "[JOIN]",
+      "msg": "登入服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "15:30:12",
+      "tag": "[QUIT]",
+      "msg": "登入服: f0urvvv left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
