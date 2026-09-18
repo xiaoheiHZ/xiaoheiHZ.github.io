@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T22:23:10+08:00",
+  "updated": "2026-09-18T22:28:18+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -55,111 +55,39 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.3,
-      "mem": 369,
+      "mem": 402,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 2.4,
-      "mem": 1359,
+      "cpu": 1.7,
+      "mem": 1378,
       "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.5,
-      "mem": 290,
+      "cpu": 1.4,
+      "mem": 445,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.6,
-      "mem": 995,
+      "cpu": 0.9,
+      "mem": 1062,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 1215,
+      "cpu": 0.3,
+      "mem": 1264,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "22:09:15",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "22:09:55",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "22:11:14",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "22:11:48",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "22:12:08",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "22:14:50",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "22:15:51",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:26",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "22:16:40",
-      "tag": "[QUIT]",
-      "msg": "登入服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "22:17:52",
-      "tag": "[QUIT]",
-      "msg": "登入服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "22:18:13",
-      "tag": "[JOIN]",
-      "msg": "登入服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "22:18:39",
-      "tag": "[JOIN]",
-      "msg": "登入服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
     {
       "t": "22:18:59",
       "tag": "[QUIT]",
@@ -216,6 +144,78 @@
     },
     {
       "t": "22:22:55",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "22:24:24",
+      "tag": "[QUIT]",
+      "msg": "登入服: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "22:24:24",
+      "tag": "[JOIN]",
+      "msg": "PvP 竞技: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "22:24:27",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "22:24:28",
+      "tag": "[JOIN]",
+      "msg": "PvP 竞技: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "22:25:03",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "22:25:16",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "22:25:25",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "22:25:45",
+      "tag": "[JOIN]",
+      "msg": "PvP 竞技: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "22:26:56",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "22:26:56",
+      "tag": "[QUIT]",
+      "msg": "PvP 竞技: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "22:27:47",
+      "tag": "[JOIN]",
+      "msg": "登入服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "22:28:10",
       "tag": "[JOIN]",
       "msg": "登入服: xiaohei_HZ joined the game",
       "cls": "ok"
