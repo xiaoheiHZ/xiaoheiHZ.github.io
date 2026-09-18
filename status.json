@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T07:53:59+08:00",
+  "updated": "2026-09-19T07:59:05+08:00",
   "online": true,
-  "latency": 47,
+  "latency": 42,
   "players": {
     "online": 0,
     "max": 100,
@@ -12,22 +12,22 @@
   "servers": [
     {
       "name": "登入服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -54,29 +54,62 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 434,
+      "cpu": 0.0,
+      "mem": 124,
       "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 4.2,
-      "mem": 1095,
+      "cpu": 0.1,
+      "mem": 426,
+      "act": 2
+    },
+    {
+      "n": "生存服",
+      "st": "run",
+      "cpu": 1.0,
+      "mem": 1620,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.8,
+      "mem": 1282,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.2,
+      "mem": 966,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "00:24:17",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (12.639s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "07:53:55",
       "tag": "[启动]",
       "msg": "登入服: Done (26.560s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "07:54:39",
+      "tag": "[启动]",
+      "msg": "生存服: Done (35.345s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "07:55:05",
+      "tag": "[启动]",
+      "msg": "PvP 竞技: Done (21.097s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "07:55:18",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (47.379s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
