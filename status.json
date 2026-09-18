@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-18T23:29:45+08:00",
+  "updated": "2026-09-18T23:40:17+08:00",
   "online": true,
-  "latency": 35,
+  "latency": 42,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -55,45 +55,39 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 250,
-      "act": 4
+      "mem": 316,
+      "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 917,
+      "cpu": 0.7,
+      "mem": 1054,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 512,
+      "cpu": 0.4,
+      "mem": 1200,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1347,
-      "act": 4
+      "cpu": 0.5,
+      "mem": 1259,
+      "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1085,
+      "cpu": 0.1,
+      "mem": 603,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "23:00:49",
-      "tag": "[启动]",
-      "msg": "登入服: Done (31.884s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "23:01:34",
       "tag": "[启动]",
@@ -101,21 +95,15 @@
       "cls": "ok"
     },
     {
-      "t": "23:22:30",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaohei_HZ has completed the challenge [Over-Overkill]",
+      "t": "23:35:15",
+      "tag": "[启动]",
+      "msg": "登入服: Done (20.990s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "23:23:20",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Warden['中岛守卫 · 坚守者 (削弱版)'/757, uuid='6565e3ae-1262-4b40-aeba-f7a87b5b82",
-      "cls": "warn"
-    },
-    {
-      "t": "23:26:19",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaohei_HZ has made the advancement [Take Aim]",
+      "t": "23:38:41",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (12.465s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
