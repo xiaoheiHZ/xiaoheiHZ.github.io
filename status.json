@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T21:46:45+08:00",
-  "online": true,
-  "latency": 47,
+  "updated": "2026-09-18T21:51:55+08:00",
+  "online": false,
+  "latency": null,
   "players": {
     "online": 0,
     "max": 100,
@@ -55,35 +55,35 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 232,
+      "mem": 181,
       "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1165,
+      "cpu": 5.5,
+      "mem": 1050,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 255,
+      "cpu": 0.9,
+      "mem": 191,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.5,
-      "mem": 293,
+      "mem": 225,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 310,
+      "cpu": 0.5,
+      "mem": 177,
       "act": 2
     }
   ],
@@ -120,6 +120,30 @@
     },
     {
       "t": "21:45:49",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "21:46:53",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "21:47:53",
+      "tag": "[QUIT]",
+      "msg": "登入服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "21:51:12",
+      "tag": "[JOIN]",
+      "msg": "登入服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "21:51:43",
       "tag": "[QUIT]",
       "msg": "登入服: xiaohei_HZ left the game",
       "cls": "warn"
