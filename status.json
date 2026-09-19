@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-19T17:08:40+08:00",
+  "updated": "2026-09-19T17:10:59+08:00",
   "online": false,
   "latency": null,
   "players": {
     "online": 0,
-    "max": 0,
+    "max": 100,
     "list": []
   },
-  "motd": "",
-  "version": "",
+  "motd": "碎星屿 · 无规则生存 | 起床战争 | PvP",
+  "version": "26.2",
   "servers": [
     {
       "name": "登入服",
@@ -49,61 +49,62 @@
       "deaths": 20
     }
   ],
+  "note": "数据每 5 分钟自动刷新",
   "processes": [
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 97,
+      "cpu": 0.1,
+      "mem": 100,
       "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 64,
+      "mem": 66,
       "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 64,
+      "mem": 67,
       "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 75,
+      "mem": 76,
       "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 725,
+      "cpu": 0.6,
+      "mem": 740,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 667,
+      "cpu": 1.2,
+      "mem": 797,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 802,
+      "cpu": 0.5,
+      "mem": 810,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 650,
+      "cpu": 0.8,
+      "mem": 658,
       "act": 2
     }
   ],
@@ -152,7 +153,5 @@
     ],
     "points": [],
     "total": 4
-  },
-  "note": "数据每 5 分钟自动刷新",
-  "error": "[Errno 111] Connection refused"
+  }
 }
