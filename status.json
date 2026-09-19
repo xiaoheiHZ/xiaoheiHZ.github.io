@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T11:08:26+08:00",
+  "updated": "2026-09-19T11:13:31+08:00",
   "online": true,
-  "latency": 35,
+  "latency": 39,
   "players": {
     "online": 2,
     "max": 100,
@@ -54,50 +54,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 290,
+      "cpu": 0.1,
+      "mem": 301,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 56,
+      "mem": 69,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 59,
+      "mem": 67,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 944,
+      "cpu": 0.3,
+      "mem": 1080,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 453,
+      "cpu": 1.4,
+      "mem": 651,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 1250,
+      "cpu": 1.0,
+      "mem": 1125,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 470,
+      "mem": 571,
       "act": 2
     }
   ],
@@ -149,6 +149,18 @@
       "tag": "[QUIT]",
       "msg": "生存服: xiaohei_HZ left the game",
       "cls": "warn"
+    },
+    {
+      "t": "11:08:33",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaohei_HZ has made the advancement [Who Needs Rockets?]",
+      "cls": "ok"
+    },
+    {
+      "t": "11:12:09",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaohei_HZ has made the advancement [Sneak 100]",
+      "cls": "ok"
     }
   ],
   "heat": {
