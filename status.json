@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-19T14:01:45+08:00",
+  "updated": "2026-09-19T14:06:50+08:00",
   "online": true,
-  "latency": 40,
+  "latency": 38,
   "players": {
-    "online": 2,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -18,7 +18,7 @@
     {
       "name": "生存服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "起床战争",
@@ -54,50 +54,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 231,
-      "act": 4
+      "cpu": 0.2,
+      "mem": 400,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 29,
-      "act": 4
+      "mem": 41,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 46,
-      "act": 4
+      "mem": 41,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.9,
-      "mem": 1242,
+      "cpu": 2.5,
+      "mem": 1306,
       "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 4.7,
-      "mem": 2036,
-      "act": 3
+      "cpu": 1.8,
+      "mem": 1938,
+      "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.8,
-      "mem": 1078,
+      "cpu": 0.5,
+      "mem": 1129,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 669,
+      "cpu": 0.4,
+      "mem": 278,
       "act": 2
     }
   ],
@@ -197,6 +197,12 @@
       "tag": "[启动]",
       "msg": "起床战争: Done (21.015s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "14:04:07",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
@@ -216,13 +222,7 @@
         "pct": 33.3
       }
     ],
-    "points": [
-      {
-        "name": "xiaohei_HZ",
-        "x": 37,
-        "z": 333
-      }
-    ],
+    "points": [],
     "total": 3
   }
 }
