@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T08:24:30+08:00",
+  "updated": "2026-09-19T08:40:02+08:00",
   "online": true,
-  "latency": 30,
+  "latency": 57,
   "players": {
     "online": 2,
     "max": 100,
@@ -22,31 +22,31 @@
     },
     {
       "name": "起床战争",
-      "online": false,
-      "players": 0
+      "online": true,
+      "players": 2
     },
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 2
+      "players": 0
     }
   ],
   "leaderboard": [
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 13,
-      "wins": 13,
-      "losses": 7,
-      "deaths": 7
+      "kills": 14,
+      "wins": 14,
+      "losses": 9,
+      "deaths": 9
     },
     {
       "uuid": "6812e040-9a3a-3232-9d90-8385bc2c795a",
       "name": "f0urvvv",
-      "kills": 7,
-      "wins": 7,
-      "losses": 13,
-      "deaths": 13
+      "kills": 9,
+      "wins": 9,
+      "losses": 14,
+      "deaths": 14
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -55,29 +55,36 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 247,
+      "mem": 376,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1061,
+      "cpu": 0.2,
+      "mem": 1200,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 567,
+      "cpu": 0.8,
+      "mem": 969,
       "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 1.7,
+      "mem": 1315,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 1532,
-      "act": 4
+      "cpu": 0.2,
+      "mem": 1518,
+      "act": 2
     }
   ],
   "logs": [
@@ -100,10 +107,16 @@
       "cls": "ok"
     },
     {
-      "t": "08:13:18",
+      "t": "08:30:19",
       "tag": "[启动]",
-      "msg": "起床战争: Done (17.332s)! For help, type \"help\"",
+      "msg": "起床战争: Done (16.563s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "08:30:28",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: xiaohei_HZ fell from a high place",
+      "cls": "warn"
     }
   ],
   "heat": {
