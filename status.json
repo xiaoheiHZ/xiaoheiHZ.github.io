@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T09:05:54+08:00",
+  "updated": "2026-09-19T09:16:12+08:00",
   "online": true,
-  "latency": 38,
+  "latency": 37,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,17 +13,17 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -54,54 +54,73 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 215,
+      "cpu": 0.0,
+      "mem": 340,
+      "act": 4
+    },
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 70,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 236,
-      "act": 4
-    },
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.1,
-      "mem": 292,
+      "mem": 92,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 805,
-      "act": 2
+      "cpu": 1.0,
+      "mem": 1439,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 17.6,
-      "mem": 629,
+      "cpu": 0.9,
+      "mem": 448,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 1165,
-      "act": 4
+      "cpu": 0.5,
+      "mem": 1107,
+      "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 679,
+      "mem": 836,
       "act": 2
     }
   ],
-  "logs": [],
+  "logs": [
+    {
+      "t": "09:06:08",
+      "tag": "[启动]",
+      "msg": "生存服: Done (19.362s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "09:12:11",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (18.012s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "09:14:53",
+      "tag": "[成就]",
+      "msg": "登入服: xiaohei_HZ has made the advancement [Sneak 100]",
+      "cls": "ok"
+    }
+  ],
   "heat": {
     "zones": [
       {
