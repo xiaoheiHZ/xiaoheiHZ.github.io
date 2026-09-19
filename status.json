@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-19T12:52:48+08:00",
+  "updated": "2026-09-19T13:00:24+08:00",
   "online": true,
-  "latency": 348,
+  "latency": 54,
   "players": {
     "online": 2,
-    "max": 500,
+    "max": 100,
     "list": []
   },
-  "motd": "§r§9✦ 碎星屿服务器 ✦§r\n§r§a欢迎来到碎星屿！§r §r§e请登录后进入服务器§r\n§r§c✦ 请使用 26.2 客户端进入游戏 ✦§r",
-  "version": "Velocity 1.7.2-26.2",
+  "motd": "碎星屿 · 无规则生存 | 起床战争 | PvP",
+  "version": "26.2",
   "servers": [
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "生存服",
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -35,8 +35,8 @@
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 15,
-      "wins": 14,
+      "kills": 16,
+      "wins": 15,
       "losses": 9,
       "deaths": 10
     },
@@ -45,58 +45,59 @@
       "name": "f0urvvv",
       "kills": 10,
       "wins": 9,
-      "losses": 14,
-      "deaths": 15
+      "losses": 15,
+      "deaths": 16
     }
   ],
+  "note": "数据每 5 分钟自动刷新",
   "processes": [
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 120,
-      "act": 3
+      "cpu": 0.6,
+      "mem": 347,
+      "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 100,
-      "act": 3
+      "mem": 58,
+      "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 38,
-      "act": 3
+      "mem": 52,
+      "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.7,
-      "mem": 1087,
-      "act": 3
+      "cpu": 2.0,
+      "mem": 1084,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.6,
-      "mem": 1472,
+      "cpu": 3.4,
+      "mem": 407,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 451,
-      "act": 2
+      "cpu": 74.0,
+      "mem": 1309,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1126,
+      "cpu": 1.2,
+      "mem": 1498,
       "act": 2
     }
   ],
@@ -148,6 +149,18 @@
       "tag": "[启动]",
       "msg": "登入服: Done (19.832s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "12:52:43",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Ol' Betsy]",
+      "cls": "ok"
+    },
+    {
+      "t": "12:52:43",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Take Aim]",
+      "cls": "ok"
     }
   ],
   "heat": {
@@ -169,6 +182,5 @@
     ],
     "points": [],
     "total": 2
-  },
-  "note": "数据每 5 分钟自动刷新"
+  }
 }
