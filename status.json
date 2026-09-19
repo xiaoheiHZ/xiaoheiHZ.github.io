@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T10:53:13+08:00",
+  "updated": "2026-09-19T10:58:18+08:00",
   "online": true,
-  "latency": 34,
+  "latency": 38,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,17 +13,17 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "生存服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -55,49 +55,49 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 262,
+      "mem": 252,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 52,
+      "mem": 37,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 33,
+      "mem": 47,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1329,
-      "act": 3
+      "cpu": 0.9,
+      "mem": 1039,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.8,
-      "mem": 1803,
-      "act": 3
+      "cpu": 2.1,
+      "mem": 1846,
+      "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 1104,
-      "act": 2
+      "cpu": 1.7,
+      "mem": 1198,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 204,
+      "cpu": 0.8,
+      "mem": 266,
       "act": 2
     }
   ],
@@ -143,6 +143,12 @@
       "tag": "[启动]",
       "msg": "起床战争: Done (19.214s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "10:57:44",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
@@ -162,13 +168,7 @@
         "pct": 50.0
       }
     ],
-    "points": [
-      {
-        "name": "xiaohei_HZ",
-        "x": 38,
-        "z": 155
-      }
-    ],
+    "points": [],
     "total": 2
   }
 }
