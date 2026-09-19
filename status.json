@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-19T12:09:21+08:00",
-  "online": true,
-  "latency": 39,
+  "updated": "2026-09-19T12:14:27+08:00",
+  "online": false,
+  "latency": null,
   "players": {
-    "online": 2,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 1
     },
     {
       "name": "生存服",
@@ -22,7 +22,7 @@
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
@@ -55,42 +55,49 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 400,
-      "act": 4
+      "mem": 51,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 58,
-      "act": 4
+      "mem": 17,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 71,
-      "act": 4
+      "mem": 22,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 1555,
-      "act": 4
+      "cpu": 0.7,
+      "mem": 1372,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.6,
-      "mem": 665,
+      "cpu": 1.2,
+      "mem": 218,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 1.1,
+      "mem": 314,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 624,
+      "mem": 298,
       "act": 2
     }
   ],
@@ -138,22 +145,10 @@
       "cls": "warn"
     },
     {
-      "t": "12:05:47",
+      "t": "12:09:39",
       "tag": "[启动]",
-      "msg": "起床战争: Done (15.412s)! For help, type \"help\"",
+      "msg": "起床战争: Done (17.642s)! For help, type \"help\"",
       "cls": "ok"
-    },
-    {
-      "t": "12:08:52",
-      "tag": "[QUIT]",
-      "msg": "起床战争: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "12:08:53",
-      "tag": "[QUIT]",
-      "msg": "起床战争: xiaohei_HZ left the game",
-      "cls": "warn"
     }
   ],
   "heat": {
