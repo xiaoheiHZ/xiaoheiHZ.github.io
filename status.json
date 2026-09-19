@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T09:16:12+08:00",
+  "updated": "2026-09-19T09:21:17+08:00",
   "online": true,
-  "latency": 37,
+  "latency": 36,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "生存服",
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -54,50 +54,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 340,
-      "act": 4
-    },
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 70,
-      "act": 4
-    },
-    {
-      "n": "Velocity 代理",
-      "st": "run",
       "cpu": 0.1,
+      "mem": 351,
+      "act": 4
+    },
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 72,
+      "act": 4
+    },
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
       "mem": 92,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 1439,
-      "act": 4
+      "cpu": 0.5,
+      "mem": 1352,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 448,
+      "cpu": 0.8,
+      "mem": 483,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1107,
-      "act": 2
+      "cpu": 2.0,
+      "mem": 1238,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 836,
+      "mem": 515,
       "act": 2
     }
   ],
@@ -109,15 +109,15 @@
       "cls": "ok"
     },
     {
-      "t": "09:12:11",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (18.012s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "09:14:53",
       "tag": "[成就]",
       "msg": "登入服: xiaohei_HZ has made the advancement [Sneak 100]",
+      "cls": "ok"
+    },
+    {
+      "t": "09:17:17",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (16.553s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
