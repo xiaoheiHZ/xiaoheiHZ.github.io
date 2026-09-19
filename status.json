@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-19T12:29:43+08:00",
+  "updated": "2026-09-19T12:34:46+08:00",
   "online": true,
-  "latency": 39,
+  "latency": 76,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "生存服",
@@ -55,49 +55,49 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.2,
-      "mem": 327,
-      "act": 4
+      "mem": 322,
+      "act": 2
+    },
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 53,
+      "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
       "mem": 45,
-      "act": 4
-    },
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.2,
-      "mem": 53,
-      "act": 4
+      "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 2.1,
-      "mem": 1327,
-      "act": 4
+      "cpu": 0.9,
+      "mem": 1050,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.9,
-      "mem": 342,
+      "cpu": 1.1,
+      "mem": 392,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.7,
-      "mem": 634,
+      "cpu": 0.7,
+      "mem": 445,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 1221,
+      "cpu": 0.5,
+      "mem": 1070,
       "act": 2
     }
   ],
@@ -145,9 +145,9 @@
       "cls": "ok"
     },
     {
-      "t": "12:28:00",
+      "t": "12:33:55",
       "tag": "[启动]",
-      "msg": "登入服: Done (18.713s)! For help, type \"help\"",
+      "msg": "登入服: Done (17.037s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
