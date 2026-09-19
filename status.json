@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T08:40:02+08:00",
+  "updated": "2026-09-19T09:00:46+08:00",
   "online": true,
-  "latency": 57,
+  "latency": 41,
   "players": {
     "online": 2,
     "max": 100,
@@ -18,17 +18,17 @@
     {
       "name": "生存服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "起床战争",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 0
+      "players": 1
     }
   ],
   "leaderboard": [
@@ -54,37 +54,37 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 376,
+      "cpu": 0.2,
+      "mem": 253,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1200,
+      "cpu": 0.3,
+      "mem": 1094,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.8,
-      "mem": 969,
-      "act": 2
+      "cpu": 4.2,
+      "mem": 1897,
+      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.7,
-      "mem": 1315,
-      "act": 4
+      "cpu": 0.6,
+      "mem": 743,
+      "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1518,
-      "act": 2
+      "cpu": 0.7,
+      "mem": 1377,
+      "act": 3
     }
   ],
   "logs": [
@@ -107,21 +107,71 @@
       "cls": "ok"
     },
     {
-      "t": "08:30:19",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (16.563s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "08:30:28",
       "tag": "[DEATH]",
       "msg": "PvP 竞技: xiaohei_HZ fell from a high place",
       "cls": "warn"
+    },
+    {
+      "t": "08:57:09",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (17.580s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "08:57:18",
+      "tag": "[JOIN]",
+      "msg": "生存服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "08:57:21",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "08:57:55",
+      "tag": "[成就]",
+      "msg": "生存服: f0urvvv has completed the challenge [Cover Me in Debris]",
+      "cls": "ok"
+    },
+    {
+      "t": "08:59:00",
+      "tag": "[QUIT]",
+      "msg": "生存服: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "08:59:09",
+      "tag": "[JOIN]",
+      "msg": "生存服: f0urvvv joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "08:59:41",
+      "tag": "[QUIT]",
+      "msg": "生存服: f0urvvv left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
-    "zones": [],
-    "points": [],
-    "total": 0
+    "zones": [
+      {
+        "name": "X-512 / Z0",
+        "x": -512,
+        "z": 0,
+        "count": 1,
+        "pct": 100.0
+      }
+    ],
+    "points": [
+      {
+        "name": "xiaohei_HZ",
+        "x": -20,
+        "z": 128
+      }
+    ],
+    "total": 1
   }
 }
