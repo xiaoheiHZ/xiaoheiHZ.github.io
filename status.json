@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-19T12:50:02+08:00",
+  "updated": "2026-09-19T12:52:48+08:00",
   "online": true,
-  "latency": 43,
+  "latency": 348,
   "players": {
-    "online": 1,
-    "max": 100,
+    "online": 2,
+    "max": 500,
     "list": []
   },
-  "motd": "碎星屿 · 无规则生存 | 起床战争 | PvP",
-  "version": "26.2",
+  "motd": "§r§9✦ 碎星屿服务器 ✦§r\n§r§a欢迎来到碎星屿！§r §r§e请登录后进入服务器§r\n§r§c✦ 请使用 26.2 客户端进入游戏 ✦§r",
+  "version": "Velocity 1.7.2-26.2",
   "servers": [
     {
       "name": "登入服",
@@ -49,7 +49,6 @@
       "deaths": 15
     }
   ],
-  "note": "数据每 5 分钟自动刷新",
   "processes": [
     {
       "n": "Velocity 代理",
@@ -170,5 +169,6 @@
     ],
     "points": [],
     "total": 2
-  }
+  },
+  "note": "数据每 5 分钟自动刷新"
 }
