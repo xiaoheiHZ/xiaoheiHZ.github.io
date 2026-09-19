@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T14:37:22+08:00",
+  "updated": "2026-09-19T14:47:35+08:00",
   "online": true,
-  "latency": 52,
+  "latency": 36,
   "players": {
     "online": 0,
     "max": 100,
@@ -55,21 +55,14 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 66,
+      "mem": 198,
       "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 47,
-      "act": 2
-    },
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 65,
+      "mem": 57,
       "act": 2
     },
     {
@@ -80,31 +73,38 @@
       "act": 2
     },
     {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 82,
+      "act": 2
+    },
+    {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 538,
+      "cpu": 0.4,
+      "mem": 986,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 552,
+      "cpu": 0.9,
+      "mem": 872,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1126,
+      "cpu": 0.4,
+      "mem": 1170,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 555,
+      "cpu": 0.5,
+      "mem": 645,
       "act": 2
     }
   ],
