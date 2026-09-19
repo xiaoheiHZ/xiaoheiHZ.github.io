@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T13:05:31+08:00",
+  "updated": "2026-09-19T13:10:36+08:00",
   "online": true,
   "latency": 35,
   "players": {
@@ -22,7 +22,7 @@
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
@@ -35,18 +35,18 @@
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 16,
-      "wins": 15,
-      "losses": 9,
-      "deaths": 10
+      "kills": 19,
+      "wins": 18,
+      "losses": 10,
+      "deaths": 11
     },
     {
       "uuid": "6812e040-9a3a-3232-9d90-8385bc2c795a",
       "name": "f0urvvv",
-      "kills": 10,
-      "wins": 9,
-      "losses": 15,
-      "deaths": 16
+      "kills": 11,
+      "wins": 10,
+      "losses": 18,
+      "deaths": 19
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -55,49 +55,49 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 241,
+      "mem": 329,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 48,
+      "mem": 49,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 47,
+      "mem": 56,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1200,
+      "cpu": 1.0,
+      "mem": 1194,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.3,
-      "mem": 349,
+      "cpu": 1.5,
+      "mem": 446,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 11.4,
-      "mem": 1005,
+      "cpu": 0.8,
+      "mem": 1104,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.8,
-      "mem": 1457,
+      "cpu": 0.6,
+      "mem": 1458,
       "act": 4
     }
   ],
@@ -155,6 +155,24 @@
       "tag": "[成就]",
       "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Take Aim]",
       "cls": "ok"
+    },
+    {
+      "t": "13:05:32",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (17.172s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "13:09:07",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: xiaohei_HZ was slain by f0urvvv",
+      "cls": "warn"
+    },
+    {
+      "t": "13:10:20",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
+      "cls": "warn"
     }
   ],
   "heat": {
