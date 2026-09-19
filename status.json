@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T18:58:33+08:00",
+  "updated": "2026-09-19T19:03:48+08:00",
   "online": true,
-  "latency": 44,
+  "latency": 41,
   "players": {
     "online": 0,
     "max": 100,
@@ -50,15 +50,7 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.1,
-      "mem": 25,
-      "act": 2
-    }
-  ],
+  "processes": [],
   "logs": [
     {
       "t": "14:14:27",
