@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-19T14:11:57+08:00",
+  "updated": "2026-09-19T14:17:01+08:00",
   "online": true,
-  "latency": 35,
+  "latency": 50,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -13,16 +13,16 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "生存服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
@@ -54,147 +54,65 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 327,
-      "act": 4
+      "cpu": 0.0,
+      "mem": 25,
+      "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 29,
-      "act": 4
+      "mem": 41,
+      "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 49,
-      "act": 4
+      "mem": 24,
+      "act": 2
+    },
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 314,
+      "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.6,
-      "mem": 1242,
-      "act": 3
+      "cpu": 0.7,
+      "mem": 1115,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.5,
-      "mem": 2200,
-      "act": 3
+      "cpu": 0.8,
+      "mem": 247,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.7,
+      "mem": 1147,
+      "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 346,
+      "cpu": 0.5,
+      "mem": 275,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "09:06:08",
+      "t": "14:14:27",
       "tag": "[启动]",
-      "msg": "生存服: Done (19.362s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "10:20:20",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaohei_HZ was slain by f0urvvv",
-      "cls": "warn"
-    },
-    {
-      "t": "10:24:31",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "10:48:48",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "10:50:43",
-      "tag": "[成就]",
-      "msg": "生存服: xiaohei_HZ has made the advancement [Hot Stuff]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:57:44",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "12:37:57",
-      "tag": "[启动]",
-      "msg": "登入服: Done (19.832s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "12:52:43",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Ol' Betsy]",
-      "cls": "ok"
-    },
-    {
-      "t": "12:52:43",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaohei_HZ has made the advancement [Take Aim]",
-      "cls": "ok"
-    },
-    {
-      "t": "13:09:07",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaohei_HZ was slain by f0urvvv",
-      "cls": "warn"
-    },
-    {
-      "t": "13:10:20",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "13:11:28",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "13:34:20",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "13:35:41",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "14:00:53",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "14:04:07",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "14:08:16",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
+      "msg": "登入服: Done (15.120s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
@@ -215,13 +133,7 @@
         "pct": 50.0
       }
     ],
-    "points": [
-      {
-        "name": "xiaohei_HZ",
-        "x": -45,
-        "z": 31
-      }
-    ],
+    "points": [],
     "total": 4
   }
 }
