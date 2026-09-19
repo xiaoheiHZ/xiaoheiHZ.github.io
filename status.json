@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T12:04:15+08:00",
+  "updated": "2026-09-19T12:09:21+08:00",
   "online": true,
-  "latency": 55,
+  "latency": 39,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 2
     },
     {
       "name": "生存服",
@@ -22,8 +22,8 @@
     },
     {
       "name": "起床战争",
-      "online": true,
-      "players": 1
+      "online": false,
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -55,49 +55,42 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 397,
+      "mem": 400,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 52,
+      "mem": 58,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 61,
+      "mem": 71,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 4.7,
-      "mem": 1462,
-      "act": 3
+      "cpu": 0.6,
+      "mem": 1555,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
       "cpu": 1.6,
-      "mem": 564,
+      "mem": 665,
       "act": 2
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.9,
-      "mem": 1225,
-      "act": 3
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 511,
+      "mem": 624,
       "act": 2
     }
   ],
@@ -145,10 +138,22 @@
       "cls": "warn"
     },
     {
-      "t": "11:56:18",
+      "t": "12:05:47",
       "tag": "[启动]",
-      "msg": "起床战争: Done (15.824s)! For help, type \"help\"",
+      "msg": "起床战争: Done (15.412s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "12:08:52",
+      "tag": "[QUIT]",
+      "msg": "起床战争: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "12:08:53",
+      "tag": "[QUIT]",
+      "msg": "起床战争: xiaohei_HZ left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
