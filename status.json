@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T13:10:36+08:00",
+  "updated": "2026-09-19T13:15:39+08:00",
   "online": true,
-  "latency": 35,
+  "latency": 32,
   "players": {
     "online": 2,
     "max": 100,
@@ -23,20 +23,20 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 2
+      "players": 0
     }
   ],
   "leaderboard": [
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 19,
-      "wins": 18,
+      "kills": 20,
+      "wins": 19,
       "losses": 10,
       "deaths": 11
     },
@@ -45,8 +45,8 @@
       "name": "f0urvvv",
       "kills": 11,
       "wins": 10,
-      "losses": 18,
-      "deaths": 19
+      "losses": 19,
+      "deaths": 20
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -55,50 +55,50 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 329,
+      "mem": 277,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 49,
+      "mem": 48,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 56,
+      "mem": 53,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 1194,
+      "cpu": 1.1,
+      "mem": 1164,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
       "cpu": 1.5,
-      "mem": 446,
+      "mem": 501,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.8,
-      "mem": 1104,
-      "act": 2
+      "cpu": 1.1,
+      "mem": 1304,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.6,
-      "mem": 1458,
-      "act": 4
+      "mem": 1266,
+      "act": 2
     }
   ],
   "logs": [
@@ -170,6 +170,12 @@
     },
     {
       "t": "13:10:20",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
+      "cls": "warn"
+    },
+    {
+      "t": "13:11:28",
       "tag": "[DEATH]",
       "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
       "cls": "warn"
