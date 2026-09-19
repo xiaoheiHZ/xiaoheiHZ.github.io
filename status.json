@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T10:48:07+08:00",
+  "updated": "2026-09-19T10:53:13+08:00",
   "online": true,
-  "latency": 36,
+  "latency": 34,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,12 +13,12 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 1
     },
     {
       "name": "生存服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "起床战争",
@@ -54,50 +54,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 388,
+      "cpu": 0.1,
+      "mem": 262,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 63,
+      "mem": 52,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 56,
+      "mem": 33,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 1455,
-      "act": 4
+      "cpu": 0.3,
+      "mem": 1329,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.3,
-      "mem": 357,
-      "act": 2
+      "cpu": 2.8,
+      "mem": 1803,
+      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1135,
+      "cpu": 0.7,
+      "mem": 1104,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 378,
+      "cpu": 0.3,
+      "mem": 204,
       "act": 2
     }
   ],
@@ -127,9 +127,21 @@
       "cls": "warn"
     },
     {
-      "t": "10:45:55",
+      "t": "10:48:48",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "10:50:43",
+      "tag": "[成就]",
+      "msg": "生存服: xiaohei_HZ has made the advancement [Hot Stuff]",
+      "cls": "ok"
+    },
+    {
+      "t": "10:53:08",
       "tag": "[启动]",
-      "msg": "起床战争: Done (17.756s)! For help, type \"help\"",
+      "msg": "起床战争: Done (19.214s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
@@ -140,10 +152,23 @@
         "x": -512,
         "z": 0,
         "count": 1,
-        "pct": 100.0
+        "pct": 50.0
+      },
+      {
+        "name": "X0 / Z0",
+        "x": 0,
+        "z": 0,
+        "count": 1,
+        "pct": 50.0
       }
     ],
-    "points": [],
-    "total": 1
+    "points": [
+      {
+        "name": "xiaohei_HZ",
+        "x": 38,
+        "z": 155
+      }
+    ],
+    "total": 2
   }
 }
