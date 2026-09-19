@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-19T12:19:32+08:00",
+  "updated": "2026-09-19T12:29:43+08:00",
   "online": true,
-  "latency": 32,
+  "latency": 39,
   "players": {
-    "online": 1,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 2
     },
     {
       "name": "生存服",
@@ -55,49 +55,49 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.2,
-      "mem": 329,
-      "act": 3
+      "mem": 327,
+      "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 34,
-      "act": 3
+      "cpu": 0.0,
+      "mem": 45,
+      "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 35,
-      "act": 3
+      "cpu": 0.2,
+      "mem": 53,
+      "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.9,
-      "mem": 1397,
-      "act": 3
+      "cpu": 2.1,
+      "mem": 1327,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.0,
-      "mem": 502,
+      "cpu": 1.9,
+      "mem": 342,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.4,
-      "mem": 491,
+      "cpu": 1.7,
+      "mem": 634,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 1.2,
-      "mem": 428,
+      "cpu": 0.7,
+      "mem": 1221,
       "act": 2
     }
   ],
@@ -106,12 +106,6 @@
       "t": "09:06:08",
       "tag": "[启动]",
       "msg": "生存服: Done (19.362s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "09:14:53",
-      "tag": "[成就]",
-      "msg": "登入服: xiaohei_HZ has made the advancement [Sneak 100]",
       "cls": "ok"
     },
     {
@@ -148,6 +142,12 @@
       "t": "12:09:39",
       "tag": "[启动]",
       "msg": "起床战争: Done (17.642s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "12:28:00",
+      "tag": "[启动]",
+      "msg": "登入服: Done (18.713s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
