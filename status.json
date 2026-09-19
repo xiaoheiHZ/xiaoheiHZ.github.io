@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T13:56:39+08:00",
+  "updated": "2026-09-19T14:01:45+08:00",
   "online": true,
-  "latency": 43,
+  "latency": 40,
   "players": {
     "online": 2,
     "max": 100,
@@ -13,17 +13,17 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "生存服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "起床战争",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -54,50 +54,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 149,
-      "act": 4
-    },
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.1,
-      "mem": 18,
+      "cpu": 0.5,
+      "mem": 231,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 43,
+      "mem": 29,
+      "act": 4
+    },
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 46,
       "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 1189,
-      "act": 2
+      "cpu": 1.9,
+      "mem": 1242,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.1,
-      "mem": 223,
-      "act": 2
+      "cpu": 4.7,
+      "mem": 2036,
+      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 1396,
-      "act": 4
+      "cpu": 1.8,
+      "mem": 1078,
+      "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 222,
+      "cpu": 0.5,
+      "mem": 669,
       "act": 2
     }
   ],
@@ -187,30 +187,42 @@
       "cls": "warn"
     },
     {
-      "t": "13:53:48",
+      "t": "14:00:53",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "14:01:36",
       "tag": "[启动]",
-      "msg": "起床战争: Done (19.414s)! For help, type \"help\"",
+      "msg": "起床战争: Done (21.015s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
   "heat": {
     "zones": [
       {
+        "name": "X0 / Z0",
+        "x": 0,
+        "z": 0,
+        "count": 2,
+        "pct": 66.7
+      },
+      {
         "name": "X-512 / Z0",
         "x": -512,
         "z": 0,
         "count": 1,
-        "pct": 50.0
-      },
-      {
-        "name": "X0 / Z0",
-        "x": 0,
-        "z": 0,
-        "count": 1,
-        "pct": 50.0
+        "pct": 33.3
       }
     ],
-    "points": [],
-    "total": 2
+    "points": [
+      {
+        "name": "xiaohei_HZ",
+        "x": 37,
+        "z": 333
+      }
+    ],
+    "total": 3
   }
 }
