@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-19T10:17:26+08:00",
+  "updated": "2026-09-19T10:32:55+08:00",
   "online": true,
-  "latency": 33,
+  "latency": 31,
   "players": {
-    "online": 2,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 1
     },
     {
       "name": "生存服",
@@ -22,7 +22,7 @@
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
@@ -35,18 +35,18 @@
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 14,
+      "kills": 15,
       "wins": 14,
       "losses": 9,
-      "deaths": 9
+      "deaths": 10
     },
     {
       "uuid": "6812e040-9a3a-3232-9d90-8385bc2c795a",
       "name": "f0urvvv",
-      "kills": 9,
+      "kills": 10,
       "wins": 9,
       "losses": 14,
-      "deaths": 14
+      "deaths": 15
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -54,43 +54,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 338,
-      "act": 4
+      "cpu": 0.1,
+      "mem": 178,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 59,
-      "act": 4
+      "mem": 39,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 64,
-      "act": 4
+      "mem": 60,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1439,
-      "act": 4
+      "cpu": 0.6,
+      "mem": 1540,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 377,
+      "cpu": 1.8,
+      "mem": 333,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.5,
+      "mem": 1097,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 511,
+      "cpu": 0.6,
+      "mem": 487,
       "act": 2
     }
   ],
@@ -108,9 +115,21 @@
       "cls": "ok"
     },
     {
-      "t": "10:15:38",
+      "t": "10:20:20",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: xiaohei_HZ was slain by f0urvvv",
+      "cls": "warn"
+    },
+    {
+      "t": "10:24:31",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: f0urvvv was slain by xiaohei_HZ",
+      "cls": "warn"
+    },
+    {
+      "t": "10:31:11",
       "tag": "[启动]",
-      "msg": "起床战争: Done (17.946s)! For help, type \"help\"",
+      "msg": "起床战争: Done (18.376s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
