@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-20T14:05:51+08:00",
+  "updated": "2026-09-20T14:56:50+08:00",
   "online": false,
   "latency": null,
   "players": {
     "online": 0,
-    "max": 0,
+    "max": 100,
     "list": []
   },
-  "motd": "",
-  "version": "",
+  "motd": "碎星屿 · 无规则生存 | 起床战争 | PvP",
+  "version": "26.2",
   "servers": [
     {
       "name": "登入服",
@@ -49,6 +49,7 @@
       "deaths": 20
     }
   ],
+  "note": "数据每 5 分钟自动刷新",
   "processes": [],
   "logs": [
     {
@@ -95,7 +96,5 @@
     ],
     "points": [],
     "total": 4
-  },
-  "note": "数据每 5 分钟自动刷新",
-  "error": "[Errno 111] Connection refused"
+  }
 }
