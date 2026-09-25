@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-25T20:18:29+08:00",
+  "updated": "2026-09-25T20:34:19+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "生存服",
@@ -54,32 +54,26 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 50,
-      "act": 2
+      "cpu": 0.1,
+      "mem": 388,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
       "cpu": 0.2,
-      "mem": 356,
-      "act": 2
+      "mem": 1134,
+      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.3,
-      "mem": 1135,
+      "mem": 1154,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "19:30:14",
-      "tag": "[启动]",
-      "msg": "登入服: Done (17.677s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "19:30:52",
       "tag": "[启动]",
