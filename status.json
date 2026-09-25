@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T23:19:54+08:00",
+  "updated": "2026-09-25T23:30:32+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -12,22 +12,22 @@
   "servers": [
     {
       "name": "登入服",
-      "online": true,
+      "online": false,
       "players": 0
     },
     {
       "name": "生存服",
-      "online": true,
+      "online": false,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": true,
+      "online": false,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": true,
+      "online": false,
       "players": 0
     }
   ],
@@ -50,43 +50,7 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 121,
-      "act": 2
-    },
-    {
-      "n": "登入服",
-      "st": "run",
-      "cpu": 0.3,
-      "mem": 787,
-      "act": 2
-    },
-    {
-      "n": "生存服",
-      "st": "run",
-      "cpu": 1.2,
-      "mem": 1248,
-      "act": 2
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.3,
-      "mem": 877,
-      "act": 2
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 0.7,
-      "mem": 778,
-      "act": 2
-    }
-  ],
+  "processes": [],
   "logs": [
     {
       "t": "22:50:01",
