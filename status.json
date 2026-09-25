@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T20:34:19+08:00",
+  "updated": "2026-09-25T20:44:39+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -17,7 +17,7 @@
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -54,66 +54,56 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 388,
+      "cpu": 0.0,
+      "mem": 404,
       "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
       "cpu": 0.2,
-      "mem": 1134,
+      "mem": 1211,
       "act": 3
+    },
+    {
+      "n": "生存服",
+      "st": "run",
+      "cpu": 0.7,
+      "mem": 1719,
+      "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1154,
+      "cpu": 0.2,
+      "mem": 863,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.1,
+      "mem": 1032,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "19:30:52",
-      "tag": "[启动]",
-      "msg": "生存服: Done (20.775s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "19:31:29",
-      "tag": "[启动]",
-      "msg": "PvP 竞技: Done (17.785s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "19:59:46",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "20:02:03",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "20:07:48",
-      "tag": "[JOIN]",
-      "msg": "生存服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "20:08:21",
-      "tag": "[QUIT]",
-      "msg": "生存服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
       "t": "20:15:51",
       "tag": "[启动]",
       "msg": "起床战争: Done (16.987s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "20:38:23",
+      "tag": "[启动]",
+      "msg": "生存服: Done (22.551s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "20:38:24",
+      "tag": "[启动]",
+      "msg": "PvP 竞技: Done (15.389s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
