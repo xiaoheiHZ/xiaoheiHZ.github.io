@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-25T22:17:49+08:00",
+  "updated": "2026-09-25T22:22:58+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "生存服",
@@ -54,62 +54,62 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 109,
-      "act": 4
+      "cpu": 0.0,
+      "mem": 32,
+      "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 2.3,
-      "mem": 1265,
-      "act": 4
+      "cpu": 0.4,
+      "mem": 1153,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 2.0,
-      "mem": 1735,
+      "cpu": 0.8,
+      "mem": 1700,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 1162,
+      "cpu": 0.4,
+      "mem": 1074,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 1.2,
-      "mem": 1059,
+      "cpu": 0.3,
+      "mem": 924,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "22:17:12",
+      "t": "22:20:40",
       "tag": "[启动]",
-      "msg": "登入服: Done (35.783s)! For help, type \"help\"",
+      "msg": "登入服: Done (31.521s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:17:14",
+      "t": "22:20:41",
       "tag": "[启动]",
-      "msg": "起床战争: Done (34.521s)! For help, type \"help\"",
+      "msg": "起床战争: Done (29.122s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:17:19",
+      "t": "22:20:44",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (32.661s)! For help, type \"help\"",
+      "msg": "PvP 竞技: Done (25.649s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:17:23",
+      "t": "22:20:48",
       "tag": "[启动]",
-      "msg": "生存服: Done (39.664s)! For help, type \"help\"",
+      "msg": "生存服: Done (32.686s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
