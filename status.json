@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T19:21:06+08:00",
+  "updated": "2026-09-25T19:31:41+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -12,22 +12,22 @@
   "servers": [
     {
       "name": "登入服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -50,31 +50,67 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [],
+  "processes": [
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 237,
+      "act": 2
+    },
+    {
+      "n": "登入服",
+      "st": "run",
+      "cpu": 0.6,
+      "mem": 1001,
+      "act": 2
+    },
+    {
+      "n": "生存服",
+      "st": "run",
+      "cpu": 1.0,
+      "mem": 1665,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 1.0,
+      "mem": 1162,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.8,
+      "mem": 1011,
+      "act": 2
+    }
+  ],
   "logs": [
     {
-      "t": "14:14:27",
+      "t": "19:30:14",
       "tag": "[启动]",
-      "msg": "登入服: Done (15.120s)! For help, type \"help\"",
+      "msg": "登入服: Done (17.677s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "15:11:49",
+      "t": "19:30:52",
       "tag": "[启动]",
-      "msg": "起床战争: Done (13.767s)! For help, type \"help\"",
+      "msg": "生存服: Done (20.775s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "16:01:52",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
+      "t": "19:31:16",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (19.194s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "16:02:08",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
+      "t": "19:31:29",
+      "tag": "[启动]",
+      "msg": "PvP 竞技: Done (17.785s)! For help, type \"help\"",
+      "cls": "ok"
     }
   ],
   "heat": {
