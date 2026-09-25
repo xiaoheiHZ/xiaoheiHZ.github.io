@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-25T21:41:42+08:00",
+  "updated": "2026-09-25T21:46:52+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -13,12 +13,12 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "生存服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "起床战争",
@@ -54,36 +54,36 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 189,
-      "act": 2
+      "cpu": 0.3,
+      "mem": 273,
+      "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1149,
-      "act": 2
+      "cpu": 0.9,
+      "mem": 1150,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 286,
-      "act": 2
+      "cpu": 3.5,
+      "mem": 2203,
+      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 349,
+      "cpu": 0.5,
+      "mem": 406,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 611,
+      "cpu": 0.8,
+      "mem": 358,
       "act": 2
     }
   ],
@@ -105,6 +105,12 @@
       "tag": "[启动]",
       "msg": "PvP 竞技: Done (15.389s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "21:42:25",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
     }
   ],
   "heat": {
@@ -114,17 +120,30 @@
         "x": -512,
         "z": 0,
         "count": 3,
-        "pct": 60.0
+        "pct": 50.0
       },
       {
         "name": "X0 / Z0",
         "x": 0,
         "z": 0,
         "count": 2,
-        "pct": 40.0
+        "pct": 33.3
+      },
+      {
+        "name": "X0 / Z-512",
+        "x": 0,
+        "z": -512,
+        "count": 1,
+        "pct": 16.7
       }
     ],
-    "points": [],
-    "total": 5
+    "points": [
+      {
+        "name": "xiaohei_HZ",
+        "x": 41,
+        "z": -32
+      }
+    ],
+    "total": 6
   }
 }
