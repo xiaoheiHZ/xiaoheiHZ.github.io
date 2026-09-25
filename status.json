@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-25T20:07:56+08:00",
+  "updated": "2026-09-25T20:18:29+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -17,8 +17,8 @@
     },
     {
       "name": "生存服",
-      "online": true,
-      "players": 1
+      "online": false,
+      "players": 0
     },
     {
       "name": "起床战争",
@@ -27,8 +27,8 @@
     },
     {
       "name": "PvP 竞技",
-      "online": true,
-      "players": 1
+      "online": false,
+      "players": 0
     }
   ],
   "leaderboard": [
@@ -54,37 +54,23 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 201,
-      "act": 4
+      "cpu": 0.0,
+      "mem": 50,
+      "act": 2
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 1.4,
-      "mem": 725,
+      "cpu": 0.2,
+      "mem": 356,
       "act": 2
-    },
-    {
-      "n": "生存服",
-      "st": "run",
-      "cpu": 10.2,
-      "mem": 1040,
-      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 292,
+      "cpu": 0.3,
+      "mem": 1135,
       "act": 2
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 1.4,
-      "mem": 1299,
-      "act": 3
     }
   ],
   "logs": [
@@ -98,12 +84,6 @@
       "t": "19:30:52",
       "tag": "[启动]",
       "msg": "生存服: Done (20.775s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "19:31:16",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (19.194s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
@@ -129,6 +109,18 @@
       "tag": "[JOIN]",
       "msg": "生存服: f0urvvv joined the game",
       "cls": "ok"
+    },
+    {
+      "t": "20:08:21",
+      "tag": "[QUIT]",
+      "msg": "生存服: f0urvvv left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "20:15:51",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (16.987s)! For help, type \"help\"",
+      "cls": "ok"
     }
   ],
   "heat": {
@@ -148,13 +140,7 @@
         "pct": 40.0
       }
     ],
-    "points": [
-      {
-        "name": "f0urvvv",
-        "x": -18,
-        "z": 137
-      }
-    ],
+    "points": [],
     "total": 5
   }
 }
