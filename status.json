@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-25T19:57:29+08:00",
+  "updated": "2026-09-25T20:02:45+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 0
+      "players": 2
     }
   ],
   "leaderboard": [
@@ -55,36 +55,36 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 92,
-      "act": 2
+      "mem": 30,
+      "act": 4
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 926,
+      "cpu": 0.5,
+      "mem": 895,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 554,
+      "cpu": 0.7,
+      "mem": 165,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.5,
-      "mem": 499,
+      "mem": 93,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.8,
-      "mem": 891,
-      "act": 2
+      "cpu": 0.9,
+      "mem": 448,
+      "act": 4
     }
   ],
   "logs": [
@@ -111,6 +111,18 @@
       "tag": "[启动]",
       "msg": "PvP 竞技: Done (17.785s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "19:59:46",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "20:02:03",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
