@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-25T22:33:19+08:00",
+  "updated": "2026-09-25T22:38:35+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -13,11 +13,11 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "生存服",
-      "online": true,
+      "online": false,
       "players": 0
     },
     {
@@ -54,62 +54,62 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 122,
-      "act": 2
+      "cpu": 0.9,
+      "mem": 429,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 554,
-      "act": 2
+      "cpu": 3.2,
+      "mem": 1163,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.9,
-      "mem": 223,
+      "cpu": 4.2,
+      "mem": 1569,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 194,
+      "cpu": 2.1,
+      "mem": 978,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 247,
+      "cpu": 2.2,
+      "mem": 894,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "22:31:23",
+      "t": "22:38:16",
       "tag": "[启动]",
-      "msg": "登入服: Done (34.622s)! For help, type \"help\"",
+      "msg": "登入服: Done (22.964s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:31:27",
+      "t": "22:38:23",
       "tag": "[启动]",
-      "msg": "起床战争: Done (34.805s)! For help, type \"help\"",
+      "msg": "起床战争: Done (26.964s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:31:33",
+      "t": "22:38:27",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (34.476s)! For help, type \"help\"",
+      "msg": "PvP 竞技: Done (24.476s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:31:37",
+      "t": "22:38:32",
       "tag": "[启动]",
-      "msg": "生存服: Done (42.422s)! For help, type \"help\"",
+      "msg": "生存服: Done (32.478s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
