@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T13:17:42+08:00",
+  "updated": "2026-09-26T13:43:49+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "生存服",
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 0
+      "players": 2
     }
   ],
   "leaderboard": [
@@ -55,36 +55,36 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 198,
+      "mem": 411,
       "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.1,
-      "mem": 567,
+      "cpu": 1.4,
+      "mem": 298,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.3,
-      "mem": 943,
+      "mem": 363,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 1291,
+      "cpu": 0.6,
+      "mem": 1178,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 672,
-      "act": 2
+      "cpu": 0.9,
+      "mem": 1183,
+      "act": 4
     }
   ],
   "logs": [
@@ -107,9 +107,21 @@
       "cls": "ok"
     },
     {
-      "t": "12:39:19",
+      "t": "13:36:55",
       "tag": "[启动]",
-      "msg": "登入服: Done (14.929s)! For help, type \"help\"",
+      "msg": "登入服: Done (14.783s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "13:41:50",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaoheiHZ has completed the challenge [Cover Me in Debris]",
+      "cls": "ok"
+    },
+    {
+      "t": "13:41:50",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Ice Bucket Challenge]",
       "cls": "ok"
     }
   ],
