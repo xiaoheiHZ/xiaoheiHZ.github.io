@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T13:43:49+08:00",
+  "updated": "2026-09-26T13:48:57+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -28,15 +28,15 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 2
+      "players": 0
     }
   ],
   "leaderboard": [
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 24,
-      "wins": 23,
+      "kills": 25,
+      "wins": 24,
       "losses": 10,
       "deaths": 11
     },
@@ -55,36 +55,36 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 411,
-      "act": 4
+      "mem": 410,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.4,
-      "mem": 298,
+      "cpu": 1.2,
+      "mem": 407,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 363,
+      "cpu": 0.5,
+      "mem": 960,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 1178,
+      "cpu": 0.7,
+      "mem": 567,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 1183,
-      "act": 4
+      "cpu": 0.2,
+      "mem": 1223,
+      "act": 2
     }
   ],
   "logs": [
