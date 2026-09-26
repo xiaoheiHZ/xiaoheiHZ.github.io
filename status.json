@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T11:33:33+08:00",
+  "updated": "2026-09-26T11:38:45+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -13,12 +13,12 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "生存服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "起床战争",
@@ -55,67 +55,61 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 193,
+      "mem": 347,
       "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.3,
-      "mem": 1650,
-      "act": 3
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.6,
-      "mem": 1210,
+      "cpu": 1.4,
+      "mem": 1572,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.8,
-      "mem": 361,
+      "cpu": 0.5,
+      "mem": 1072,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.3,
+      "mem": 277,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 708,
+      "cpu": 0.8,
+      "mem": 944,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "11:27:16",
+      "t": "11:37:38",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (23.228s)! For help, type \"help\"",
+      "msg": "登入服: Done (21.918s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "11:27:27",
+      "t": "11:37:45",
       "tag": "[启动]",
-      "msg": "生存服: Done (37.320s)! For help, type \"help\"",
+      "msg": "起床战争: Done (26.029s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "11:30:07",
+      "t": "11:37:49",
       "tag": "[启动]",
-      "msg": "登入服: Done (15.252s)! For help, type \"help\"",
+      "msg": "PvP 竞技: Done (22.901s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "11:30:18",
+      "t": "11:38:01",
       "tag": "[启动]",
-      "msg": "起床战争: Done (18.635s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "11:31:03",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
+      "msg": "生存服: Done (38.598s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
@@ -143,13 +137,7 @@
         "pct": 11.1
       }
     ],
-    "points": [
-      {
-        "name": "xiaohei_HZ",
-        "x": -16,
-        "z": 105
-      }
-    ],
+    "points": [],
     "total": 9
   }
 }
