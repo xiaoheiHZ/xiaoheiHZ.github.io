@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T18:34:33+08:00",
+  "updated": "2026-09-26T18:45:01+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -54,43 +54,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 421,
-      "act": 2
+      "cpu": 0.4,
+      "mem": 286,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 310,
+      "cpu": 1.2,
+      "mem": 196,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 376,
-      "act": 2
+      "cpu": 0.9,
+      "mem": 988,
+      "act": 4
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 1.1,
+      "mem": 210,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 672,
+      "cpu": 0.9,
+      "mem": 154,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.0,
-      "mem": 11,
+      "mem": 5,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.8,
-      "mem": 1324,
+      "cpu": 0.6,
+      "mem": 140,
       "act": 2
     }
   ],
@@ -114,9 +121,15 @@
       "cls": "ok"
     },
     {
-      "t": "17:26:37",
+      "t": "18:35:02",
       "tag": "[启动]",
-      "msg": "登入服: Done (13.692s)! For help, type \"help\"",
+      "msg": "登入服: Done (16.107s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "18:39:30",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaoheiHZ has made the advancement [Surge Protector]",
       "cls": "ok"
     }
   ],
