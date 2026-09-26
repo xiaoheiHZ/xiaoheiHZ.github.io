@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T08:47:48+08:00",
+  "updated": "2026-09-26T08:52:59+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -18,7 +18,7 @@
     {
       "name": "生存服",
       "online": true,
-      "players": 0
+      "players": 1
     },
     {
       "name": "起床战争",
@@ -54,36 +54,36 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 53,
-      "act": 2
+      "cpu": 0.1,
+      "mem": 164,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 164,
+      "cpu": 0.3,
+      "mem": 846,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 187,
-      "act": 2
+      "cpu": 3.4,
+      "mem": 1570,
+      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 156,
+      "cpu": 0.4,
+      "mem": 216,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 120,
+      "cpu": 0.8,
+      "mem": 220,
       "act": 2
     }
   ],
@@ -111,6 +111,12 @@
       "tag": "[启动]",
       "msg": "PvP 竞技: Done (26.861s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "08:52:17",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
     }
   ],
   "heat": {
@@ -120,24 +126,30 @@
         "x": -512,
         "z": 0,
         "count": 3,
-        "pct": 50.0
+        "pct": 42.9
       },
       {
         "name": "X0 / Z0",
         "x": 0,
         "z": 0,
-        "count": 2,
-        "pct": 33.3
+        "count": 3,
+        "pct": 42.9
       },
       {
         "name": "X0 / Z-512",
         "x": 0,
         "z": -512,
         "count": 1,
-        "pct": 16.7
+        "pct": 14.3
       }
     ],
-    "points": [],
-    "total": 6
+    "points": [
+      {
+        "name": "xiaohei_HZ",
+        "x": 7,
+        "z": 217
+      }
+    ],
+    "total": 7
   }
 }
