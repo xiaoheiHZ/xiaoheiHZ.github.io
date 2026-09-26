@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T17:21:30+08:00",
+  "updated": "2026-09-26T17:26:42+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -55,35 +55,35 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 250,
+      "mem": 207,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 1.4,
-      "mem": 255,
+      "cpu": 0.7,
+      "mem": 293,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 406,
+      "cpu": 0.3,
+      "mem": 389,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 3.4,
-      "mem": 938,
+      "cpu": 2.9,
+      "mem": 1089,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1000,
+      "cpu": 0.2,
+      "mem": 1004,
       "act": 2
     }
   ],
@@ -110,6 +110,12 @@
       "t": "13:41:50",
       "tag": "[成就]",
       "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Ice Bucket Challenge]",
+      "cls": "ok"
+    },
+    {
+      "t": "17:26:37",
+      "tag": "[启动]",
+      "msg": "登入服: Done (13.692s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
