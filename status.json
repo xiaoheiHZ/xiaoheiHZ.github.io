@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T08:26:49+08:00",
+  "updated": "2026-09-26T08:31:59+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -12,22 +12,22 @@
   "servers": [
     {
       "name": "登入服",
-      "online": false,
-      "players": 0
+      "online": true,
+      "players": 1
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -55,14 +55,35 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 405,
-      "act": 2
+      "mem": 155,
+      "act": 3
     },
     {
       "n": "登入服",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1154,
+      "cpu": 1.9,
+      "mem": 992,
+      "act": 3
+    },
+    {
+      "n": "生存服",
+      "st": "run",
+      "cpu": 1.5,
+      "mem": 657,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 1.3,
+      "mem": 915,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 1.5,
+      "mem": 218,
       "act": 2
     }
   ],
@@ -74,21 +95,21 @@
       "cls": "ok"
     },
     {
-      "t": "22:50:01",
+      "t": "08:27:28",
       "tag": "[启动]",
-      "msg": "起床战争: Done (25.942s)! For help, type \"help\"",
+      "msg": "生存服: Done (22.662s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:50:04",
+      "t": "08:27:50",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (22.254s)! For help, type \"help\"",
+      "msg": "起床战争: Done (19.019s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:50:07",
+      "t": "08:27:59",
       "tag": "[启动]",
-      "msg": "生存服: Done (28.748s)! For help, type \"help\"",
+      "msg": "PvP 竞技: Done (13.596s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
