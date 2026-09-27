@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T13:21:29+08:00",
+  "updated": "2026-09-27T13:26:39+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -35,8 +35,8 @@
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 33,
-      "wins": 32,
+      "kills": 34,
+      "wins": 33,
       "losses": 17,
       "deaths": 18
     },
@@ -53,8 +53,8 @@
       "name": "xiaoheiHZ",
       "kills": 7,
       "wins": 7,
-      "losses": 9,
-      "deaths": 9
+      "losses": 10,
+      "deaths": 10
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -62,36 +62,36 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 55,
+      "cpu": 0.6,
+      "mem": 51,
       "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 151,
+      "cpu": 1.1,
+      "mem": 118,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 264,
+      "cpu": 0.1,
+      "mem": 78,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 181,
+      "cpu": 0.7,
+      "mem": 112,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 257,
+      "cpu": 9.9,
+      "mem": 122,
       "act": 4
     }
   ],
