@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T10:14:58+08:00",
+  "updated": "2026-09-27T10:20:14+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -12,22 +12,22 @@
   "servers": [
     {
       "name": "登入服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -54,34 +54,63 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 361,
+      "cpu": 20.2,
+      "mem": 146,
+      "act": 2
+    },
+    {
+      "n": "生存服",
+      "st": "run",
+      "cpu": 3.3,
+      "mem": 179,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 2.6,
+      "mem": 130,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 19.2,
+      "mem": 1183,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 1.5,
+      "mem": 68,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 2.3,
+      "mem": 96,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "11:37:49",
+      "t": "10:16:00",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (22.901s)! For help, type \"help\"",
+      "msg": "起床战争: Done (25.135s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "13:41:50",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has completed the challenge [Cover Me in Debris]",
-      "cls": "ok"
-    },
-    {
-      "t": "13:41:50",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Ice Bucket Challenge]",
-      "cls": "ok"
-    },
-    {
-      "t": "21:01:10",
+      "t": "10:16:38",
       "tag": "[启动]",
-      "msg": "起床战争: Done (12.859s)! For help, type \"help\"",
+      "msg": "PvP 竞技: Done (48.121s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "10:20:03",
+      "tag": "[启动]",
+      "msg": "登入服: Done (20.668s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
