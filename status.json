@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T16:00:25+08:00",
+  "updated": "2026-09-27T16:05:57+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,15 +62,15 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 43,
+      "cpu": 0.0,
+      "mem": 46,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 561,
+      "cpu": 0.4,
+      "mem": 1005,
       "act": 2
     }
   ],
