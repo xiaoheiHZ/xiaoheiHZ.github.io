@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T10:35:42+08:00",
+  "updated": "2026-09-27T10:40:51+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -35,8 +35,8 @@
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 26,
-      "wins": 25,
+      "kills": 27,
+      "wins": 26,
       "losses": 11,
       "deaths": 12
     },
@@ -53,8 +53,8 @@
       "name": "xiaoheiHZ",
       "kills": 1,
       "wins": 1,
-      "losses": 2,
-      "deaths": 2
+      "losses": 3,
+      "deaths": 3
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -62,36 +62,36 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 414,
+      "cpu": 0.1,
+      "mem": 395,
       "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1296,
+      "cpu": 0.4,
+      "mem": 1339,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 496,
+      "cpu": 0.2,
+      "mem": 515,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1159,
+      "cpu": 0.2,
+      "mem": 1003,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1293,
+      "cpu": 0.3,
+      "mem": 1219,
       "act": 4
     }
   ],
@@ -136,6 +136,24 @@
       "t": "10:35:03",
       "tag": "[成就]",
       "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Take Aim]",
+      "cls": "ok"
+    },
+    {
+      "t": "10:37:58",
+      "tag": "[DEATH]",
+      "msg": "PvP 竞技: xiaoheiHZ was killed by [Intentional Game Design]",
+      "cls": "warn"
+    },
+    {
+      "t": "10:38:14",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Cover Me with Diamonds]",
+      "cls": "ok"
+    },
+    {
+      "t": "10:38:14",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Hot Stuff]",
       "cls": "ok"
     }
   ],
