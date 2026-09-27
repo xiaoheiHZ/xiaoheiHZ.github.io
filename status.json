@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-27T13:31:50+08:00",
+  "updated": "2026-09-27T13:37:13+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 1,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 1
+      "players": 0
     }
   ],
   "leaderboard": [
@@ -62,30 +62,37 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 40,
-      "act": 3
+      "cpu": 0.1,
+      "mem": 397,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 152,
+      "cpu": 0.2,
+      "mem": 344,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 861,
+      "cpu": 0.4,
+      "mem": 979,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.7,
+      "mem": 1401,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 297,
-      "act": 3
+      "cpu": 0.2,
+      "mem": 1102,
+      "act": 2
     }
   ],
   "logs": [
@@ -93,12 +100,6 @@
       "t": "10:16:38",
       "tag": "[启动]",
       "msg": "PvP 竞技: Done (48.121s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "10:20:03",
-      "tag": "[启动]",
-      "msg": "登入服: Done (20.668s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
@@ -196,6 +197,24 @@
       "tag": "[DEATH]",
       "msg": "PvP 竞技: xiaoheiHZ was slain by xiaohei_HZ",
       "cls": "warn"
+    },
+    {
+      "t": "13:32:56",
+      "tag": "[启动]",
+      "msg": "登入服: Done (58.094s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "13:35:59",
+      "tag": "[成就]",
+      "msg": "登入服: xiaoheiHZ has made the advancement [We Need to Go Deeper]",
+      "cls": "ok"
+    },
+    {
+      "t": "13:36:13",
+      "tag": "[成就]",
+      "msg": "登入服: xiaohei_HZ has made the advancement [We Need to Go Deeper]",
+      "cls": "ok"
     }
   ],
   "heat": {
