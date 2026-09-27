@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T16:28:15+08:00",
+  "updated": "2026-09-27T16:33:47+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -63,7 +63,7 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 59,
+      "mem": 60,
       "act": 2
     },
     {
