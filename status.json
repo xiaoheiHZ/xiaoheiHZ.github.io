@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-27T11:43:07+08:00",
+  "updated": "2026-09-27T11:58:59+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -22,8 +22,8 @@
     },
     {
       "name": "起床战争",
-      "online": false,
-      "players": 0
+      "online": true,
+      "players": 1
     },
     {
       "name": "PvP 竞技",
@@ -62,39 +62,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 325,
-      "act": 2
+      "cpu": 0.0,
+      "mem": 132,
+      "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 529,
+      "cpu": 0.9,
+      "mem": 86,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 903,
-      "act": 2
+      "cpu": 0.8,
+      "mem": 1254,
+      "act": 3
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 1.1,
+      "mem": 1120,
+      "act": 3
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 382,
+      "cpu": 0.7,
+      "mem": 108,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "10:16:00",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (25.135s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "10:16:38",
       "tag": "[启动]",
@@ -184,6 +185,12 @@
       "tag": "[DEATH]",
       "msg": "PvP 竞技: xiaoheiHZ was slain by xiaohei_HZ",
       "cls": "warn"
+    },
+    {
+      "t": "11:58:29",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (15.546s)! For help, type \"help\"",
+      "cls": "ok"
     }
   ],
   "heat": {
