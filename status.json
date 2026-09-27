@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T13:00:51+08:00",
+  "updated": "2026-09-27T13:06:00+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -13,7 +13,7 @@
     {
       "name": "登入服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "生存服",
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 1
+      "players": 2
     }
   ],
   "leaderboard": [
@@ -62,37 +62,37 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 343,
+      "cpu": 0.7,
+      "mem": 362,
       "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 905,
+      "cpu": 1.0,
+      "mem": 484,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1323,
+      "cpu": 0.6,
+      "mem": 1233,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 507,
+      "cpu": 1.0,
+      "mem": 1039,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1133,
-      "act": 3
+      "cpu": 0.6,
+      "mem": 1341,
+      "act": 4
     }
   ],
   "logs": [
@@ -191,6 +191,12 @@
       "tag": "[启动]",
       "msg": "起床战争: Done (15.546s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "13:01:54",
+      "tag": "[CHAT]",
+      "msg": "PvP 竞技: [Not Secure] <xiaoheiHZ> 1",
+      "cls": "info"
     }
   ],
   "heat": {
