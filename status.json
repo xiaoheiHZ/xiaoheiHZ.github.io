@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T14:26:20+08:00",
+  "updated": "2026-09-27T14:31:45+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -63,35 +63,35 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 148,
+      "mem": 145,
       "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.6,
+      "cpu": 0.4,
       "mem": 1250,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1156,
+      "cpu": 0.1,
+      "mem": 1131,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1143,
+      "cpu": 0.5,
+      "mem": 954,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1200,
+      "cpu": 0.1,
+      "mem": 1199,
       "act": 2
     }
   ],
@@ -181,12 +181,6 @@
       "cls": "warn"
     },
     {
-      "t": "11:58:29",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (15.546s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
       "t": "13:01:54",
       "tag": "[CHAT]",
       "msg": "PvP 竞技: [Not Secure] <xiaoheiHZ> 1",
@@ -214,6 +208,12 @@
       "t": "13:36:13",
       "tag": "[成就]",
       "msg": "登入服: xiaohei_HZ has made the advancement [We Need to Go Deeper]",
+      "cls": "ok"
+    },
+    {
+      "t": "14:31:11",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (12.930s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
