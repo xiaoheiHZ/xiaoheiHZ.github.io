@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-27T10:25:24+08:00",
+  "updated": "2026-09-27T10:30:34+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 0
+      "players": 2
     }
   ],
   "leaderboard": [
@@ -37,8 +37,8 @@
       "name": "xiaohei_HZ",
       "kills": 25,
       "wins": 24,
-      "losses": 10,
-      "deaths": 11
+      "losses": 11,
+      "deaths": 12
     },
     {
       "uuid": "6812e040-9a3a-3232-9d90-8385bc2c795a",
@@ -47,6 +47,14 @@
       "wins": 10,
       "losses": 23,
       "deaths": 24
+    },
+    {
+      "uuid": "00000000-0000-0000-0009-01fd4fbe479e",
+      "name": "xiaoheiHZ",
+      "kills": 1,
+      "wins": 1,
+      "losses": 1,
+      "deaths": 1
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -54,44 +62,37 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 394,
-      "act": 2
+      "cpu": 0.1,
+      "mem": 417,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 212,
+      "cpu": 0.6,
+      "mem": 1254,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.3,
+      "mem": 459,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.2,
-      "mem": 321,
-      "act": 2
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 1.2,
-      "mem": 1057,
+      "mem": 1196,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 3.6,
-      "mem": 1488,
-      "act": 2
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 0.6,
-      "mem": 279,
-      "act": 2
+      "cpu": 0.2,
+      "mem": 1270,
+      "act": 4
     }
   ],
   "logs": [
@@ -111,6 +112,18 @@
       "t": "10:20:03",
       "tag": "[启动]",
       "msg": "登入服: Done (20.668s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "10:27:52",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Into Fire]",
+      "cls": "ok"
+    },
+    {
+      "t": "10:30:28",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Who Needs Rockets?]",
       "cls": "ok"
     }
   ],
