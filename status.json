@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-01T09:36:17+08:00",
+  "updated": "2026-10-01T09:41:36+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -17,17 +17,17 @@
     },
     {
       "name": "生存服",
-      "online": true,
+      "online": false,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": true,
-      "players": 2
+      "online": false,
+      "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": true,
+      "online": false,
       "players": 0
     }
   ],
@@ -58,43 +58,7 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.3,
-      "mem": 400,
-      "act": 4
-    },
-    {
-      "n": "生存服",
-      "st": "run",
-      "cpu": 0.8,
-      "mem": 1528,
-      "act": 2
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.7,
-      "mem": 1602,
-      "act": 4
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.4,
-      "mem": 1200,
-      "act": 4
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 0.5,
-      "mem": 871,
-      "act": 2
-    }
-  ],
+  "processes": [],
   "logs": [
     {
       "t": "09:09:02",
@@ -119,6 +83,12 @@
       "tag": "[启动]",
       "msg": "登入服: Done (16.518s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "09:38:04",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Warden['❤ 3/150'/1138, uuid='788c94b5-5bc2-4814-9cfc-2589d4c97287', l='",
+      "cls": "warn"
     }
   ],
   "heat": {
