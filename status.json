@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-01T09:01:44+08:00",
+  "updated": "2026-10-01T09:14:23+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -17,17 +17,17 @@
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
-      "players": 0
+      "online": true,
+      "players": 1
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -58,126 +58,66 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [],
+  "processes": [
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.1,
+      "mem": 193,
+      "act": 3
+    },
+    {
+      "n": "生存服",
+      "st": "run",
+      "cpu": 0.7,
+      "mem": 1454,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 1.2,
+      "mem": 1115,
+      "act": 3
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.7,
+      "mem": 1250,
+      "act": 3
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.7,
+      "mem": 909,
+      "act": 2
+    }
+  ],
   "logs": [
     {
-      "t": "10:16:38",
+      "t": "09:09:02",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (48.121s)! For help, type \"help\"",
+      "msg": "生存服: Done (20.334s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "10:27:52",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Into Fire]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:30:28",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Who Needs Rockets?]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:35:03",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Ol' Betsy]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:35:03",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Take Aim]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:37:58",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaoheiHZ was killed by [Intentional Game Design]",
-      "cls": "warn"
-    },
-    {
-      "t": "10:38:14",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Cover Me with Diamonds]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:38:14",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [Hot Stuff]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:41:31",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaohei_HZ was slain by xiaoheiHZ",
-      "cls": "warn"
-    },
-    {
-      "t": "10:42:07",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: xiaoheiHZ has made the advancement [A Throwaway Joke]",
-      "cls": "ok"
-    },
-    {
-      "t": "10:43:38",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaoheiHZ was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "10:47:50",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaoheiHZ was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "11:08:11",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaoheiHZ was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "11:11:50",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaoheiHZ was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "13:01:54",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <xiaoheiHZ> 1",
-      "cls": "info"
-    },
-    {
-      "t": "13:19:50",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaoheiHZ was slain by xiaohei_HZ",
-      "cls": "warn"
-    },
-    {
-      "t": "13:32:56",
+      "t": "09:09:22",
       "tag": "[启动]",
-      "msg": "登入服: Done (58.094s)! For help, type \"help\"",
+      "msg": "起床战争: Done (16.282s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "13:35:59",
-      "tag": "[成就]",
-      "msg": "登入服: xiaoheiHZ has made the advancement [We Need to Go Deeper]",
-      "cls": "ok"
-    },
-    {
-      "t": "13:36:13",
-      "tag": "[成就]",
-      "msg": "登入服: xiaohei_HZ has made the advancement [We Need to Go Deeper]",
-      "cls": "ok"
-    },
-    {
-      "t": "14:31:11",
+      "t": "09:09:36",
       "tag": "[启动]",
-      "msg": "起床战争: Done (12.930s)! For help, type \"help\"",
+      "msg": "PvP 竞技: Done (15.070s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "09:10:25",
+      "tag": "[启动]",
+      "msg": "登入服: Done (16.518s)! For help, type \"help\"",
       "cls": "ok"
     }
   ],
