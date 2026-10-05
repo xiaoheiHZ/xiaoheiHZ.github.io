@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T21:45:56+08:00",
+  "updated": "2026-10-05T21:51:20+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,22 +62,22 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 253,
+      "cpu": 0.0,
+      "mem": 378,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 457,
+      "cpu": 0.4,
+      "mem": 1134,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 257,
+      "cpu": 0.7,
+      "mem": 324,
       "act": 2
     }
   ],
@@ -111,6 +111,12 @@
       "tag": "[成就]",
       "msg": "起床战争: xiaohei_HZ has made the advancement [A Throwaway Joke]",
       "cls": "ok"
+    },
+    {
+      "t": "21:49:35",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity IronGolem['❤ 10/100'/949, uuid='43add494-704f-4bf5-8324-92e2828ee4a2', ",
+      "cls": "warn"
     }
   ],
   "heat": {
