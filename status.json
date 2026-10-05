@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T17:51:50+08:00",
+  "updated": "2026-10-05T17:57:23+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -17,17 +17,17 @@
     },
     {
       "name": "生存服",
-      "online": true,
+      "online": false,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": true,
+      "online": false,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": true,
+      "online": false,
       "players": 0
     }
   ],
@@ -63,45 +63,18 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 126,
-      "act": 2
-    },
-    {
-      "n": "生存服",
-      "st": "run",
-      "cpu": 0.6,
-      "mem": 2757,
+      "mem": 23,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 448,
-      "act": 2
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.7,
-      "mem": 193,
-      "act": 2
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 0.3,
-      "mem": 652,
+      "cpu": 0.2,
+      "mem": 298,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "16:01:37",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (16.700s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "16:01:48",
       "tag": "[启动]",
