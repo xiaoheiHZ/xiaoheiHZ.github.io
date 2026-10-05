@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T21:29:28+08:00",
+  "updated": "2026-10-05T21:34:53+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -17,17 +17,17 @@
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -58,79 +58,60 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [],
+  "processes": [
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.4,
+      "mem": 283,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 3.2,
+      "mem": 1164,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 1.5,
+      "mem": 953,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 379,
+      "act": 2
+    }
+  ],
   "logs": [
     {
-      "t": "16:01:48",
+      "t": "21:33:29",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (12.235s)! For help, type \"help\"",
+      "msg": "登入服: Done (22.264s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "16:07:15",
+      "t": "21:33:57",
       "tag": "[启动]",
-      "msg": "登入服: Done (14.147s)! For help, type \"help\"",
+      "msg": "生存服: Done (15.206s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "16:28:21",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: 114514 has made the advancement [Cover Me with Diamonds]",
+      "t": "21:34:25",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (18.288s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "16:42:21",
-      "tag": "[成就]",
-      "msg": "起床战争: 114514 has made the advancement [Acquire Hardware]",
+      "t": "21:34:39",
+      "tag": "[启动]",
+      "msg": "PvP 竞技: Done (12.176s)! For help, type \"help\"",
       "cls": "ok"
-    },
-    {
-      "t": "16:45:56",
-      "tag": "[成就]",
-      "msg": "起床战争: 114514 has made the advancement [Diamonds!]",
-      "cls": "ok"
-    },
-    {
-      "t": "16:48:38",
-      "tag": "[成就]",
-      "msg": "起床战争: 114514 has made the advancement [Suit Up]",
-      "cls": "ok"
-    },
-    {
-      "t": "17:01:03",
-      "tag": "[成就]",
-      "msg": "起床战争: 114514 has made the advancement [Cover Me with Diamonds]",
-      "cls": "ok"
-    },
-    {
-      "t": "17:08:42",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Warden['❤ 8/150'/2244, uuid='8ce67617-cf3d-4963-a8df-2db05cb83127', l='",
-      "cls": "warn"
-    },
-    {
-      "t": "17:17:16",
-      "tag": "[成就]",
-      "msg": "起床战争: 114514 has made the advancement [Sneak 100]",
-      "cls": "ok"
-    },
-    {
-      "t": "17:17:16",
-      "tag": "[成就]",
-      "msg": "起床战争: 114514 has made the advancement [Take Aim]",
-      "cls": "ok"
-    },
-    {
-      "t": "17:51:09",
-      "tag": "[QUIT]",
-      "msg": "生存服: 114514 left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "17:51:23",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
     }
   ],
   "heat": {
