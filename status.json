@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-05T17:35:36+08:00",
+  "updated": "2026-10-05T17:41:02+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -18,7 +18,7 @@
     {
       "name": "生存服",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "起床战争",
@@ -62,36 +62,36 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 104,
-      "act": 2
+      "cpu": 0.2,
+      "mem": 81,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 314,
+      "cpu": 5.6,
+      "mem": 1953,
+      "act": 4
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.4,
+      "mem": 109,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1449,
-      "act": 2
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.2,
-      "mem": 1338,
+      "cpu": 0.7,
+      "mem": 84,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 315,
+      "cpu": 0.5,
+      "mem": 67,
       "act": 2
     }
   ],
@@ -185,6 +185,24 @@
       "tag": "[成就]",
       "msg": "起床战争: 114514 has made the advancement [Take Aim]",
       "cls": "ok"
+    },
+    {
+      "t": "17:38:32",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:38:33",
+      "tag": "[JOIN]",
+      "msg": "生存服: 114514 joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:38:49",
+      "tag": "[成就]",
+      "msg": "生存服: xiaohei_HZ has completed the challenge [Cover Me in Debris]",
+      "cls": "ok"
     }
   ],
   "heat": {
@@ -194,31 +212,42 @@
         "x": -512,
         "z": 0,
         "count": 6,
-        "pct": 50.0
+        "pct": 42.9
+      },
+      {
+        "name": "X0 / Z-512",
+        "x": 0,
+        "z": -512,
+        "count": 4,
+        "pct": 28.6
       },
       {
         "name": "X0 / Z0",
         "x": 0,
         "z": 0,
         "count": 3,
-        "pct": 25.0
-      },
-      {
-        "name": "X0 / Z-512",
-        "x": 0,
-        "z": -512,
-        "count": 2,
-        "pct": 16.7
+        "pct": 21.4
       },
       {
         "name": "X-512 / Z-512",
         "x": -512,
         "z": -512,
         "count": 1,
-        "pct": 8.3
+        "pct": 7.1
       }
     ],
-    "points": [],
-    "total": 12
+    "points": [
+      {
+        "name": "xiaohei_HZ",
+        "x": 86,
+        "z": -342
+      },
+      {
+        "name": "114514",
+        "x": 71,
+        "z": -335
+      }
+    ],
+    "total": 14
   }
 }
