@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:18:27+08:00",
+  "updated": "2026-10-05T22:23:54+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -63,37 +63,25 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.2,
-      "mem": 417,
+      "mem": 130,
       "act": 5
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1291,
+      "cpu": 0.6,
+      "mem": 246,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 834,
+      "cpu": 0.3,
+      "mem": 75,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "21:34:25",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (18.288s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "21:34:39",
-      "tag": "[启动]",
-      "msg": "PvP 竞技: Done (12.176s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "21:44:30",
       "tag": "[成就]",
@@ -212,6 +200,18 @@
       "t": "22:18:06",
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Silverfish['❤ 8/8'/3637, uuid='c27b12f0-c01a-4dcd-8d57-3f4c0e01d968', l",
+      "cls": "warn"
+    },
+    {
+      "t": "22:18:57",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 24/24'/3721, uuid='00388343-f7ef-43d2-9194-ce0135e8c5f5',",
+      "cls": "warn"
+    },
+    {
+      "t": "22:20:02",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 24/24'/3720, uuid='6da58cfa-e6c2-462c-84db-16a234c5bc33',",
       "cls": "warn"
     }
   ],
