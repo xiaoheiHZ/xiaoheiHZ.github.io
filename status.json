@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-05T21:56:45+08:00",
+  "updated": "2026-10-05T22:02:11+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 3,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 2
+      "players": 3
     },
     {
       "name": "PvP 竞技",
@@ -63,21 +63,21 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 396,
-      "act": 4
+      "mem": 95,
+      "act": 5
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1132,
+      "cpu": 1.2,
+      "mem": 673,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 826,
+      "cpu": 0.5,
+      "mem": 68,
       "act": 2
     }
   ],
@@ -116,6 +116,12 @@
       "t": "21:49:35",
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity IronGolem['❤ 10/100'/949, uuid='43add494-704f-4bf5-8324-92e2828ee4a2', ",
+      "cls": "warn"
+    },
+    {
+      "t": "21:56:46",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Warden['❤ 15/400'/986, uuid='f40b8745-7a5d-482f-a95e-141dcfe047d7', l='",
       "cls": "warn"
     }
   ],
