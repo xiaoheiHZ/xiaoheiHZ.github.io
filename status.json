@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:23:54+08:00",
+  "updated": "2026-10-05T22:34:53+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,44 +62,26 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 130,
+      "cpu": 0.1,
+      "mem": 386,
       "act": 5
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 246,
+      "cpu": 1.0,
+      "mem": 1291,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 75,
+      "cpu": 0.4,
+      "mem": 327,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "21:44:30",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaohei_HZ has made the advancement [A Throwaway Joke]",
-      "cls": "ok"
-    },
-    {
-      "t": "21:49:35",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity IronGolem['❤ 10/100'/949, uuid='43add494-704f-4bf5-8324-92e2828ee4a2', ",
-      "cls": "warn"
-    },
-    {
-      "t": "21:56:46",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Warden['❤ 15/400'/986, uuid='f40b8745-7a5d-482f-a95e-141dcfe047d7', l='",
-      "cls": "warn"
-    },
     {
       "t": "22:04:30",
       "tag": "[成就]",
@@ -212,6 +194,24 @@
       "t": "22:20:02",
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Silverfish['❤ 24/24'/3720, uuid='6da58cfa-e6c2-462c-84db-16a234c5bc33',",
+      "cls": "warn"
+    },
+    {
+      "t": "22:29:05",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaoheiHZ has made the advancement [Monster Hunter]",
+      "cls": "ok"
+    },
+    {
+      "t": "22:29:57",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaohei_HZ has made the advancement [Monster Hunter]",
+      "cls": "ok"
+    },
+    {
+      "t": "22:30:23",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 8/8'/5212, uuid='028f803b-84cc-4382-97b0-f6fd2e469846', l",
       "cls": "warn"
     }
   ],
