@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-05T21:34:53+08:00",
+  "updated": "2026-10-05T21:45:56+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -62,29 +62,22 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 283,
+      "cpu": 0.2,
+      "mem": 253,
+      "act": 4
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.6,
+      "mem": 457,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 3.2,
-      "mem": 1164,
-      "act": 2
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 1.5,
-      "mem": 953,
-      "act": 2
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 379,
+      "cpu": 0.5,
+      "mem": 257,
       "act": 2
     }
   ],
@@ -111,6 +104,12 @@
       "t": "21:34:39",
       "tag": "[启动]",
       "msg": "PvP 竞技: Done (12.176s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "21:44:30",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaohei_HZ has made the advancement [A Throwaway Joke]",
       "cls": "ok"
     }
   ],
