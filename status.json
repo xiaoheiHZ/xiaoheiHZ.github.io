@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:02:11+08:00",
+  "updated": "2026-10-05T22:07:37+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,22 +62,22 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 95,
+      "cpu": 0.1,
+      "mem": 351,
       "act": 5
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 1.2,
-      "mem": 673,
+      "cpu": 0.2,
+      "mem": 1005,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 68,
+      "cpu": 0.3,
+      "mem": 154,
       "act": 2
     }
   ],
@@ -123,6 +123,12 @@
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Warden['❤ 15/400'/986, uuid='f40b8745-7a5d-482f-a95e-141dcfe047d7', l='",
       "cls": "warn"
+    },
+    {
+      "t": "22:04:30",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaoheiHZ has made the advancement [Suit Up]",
+      "cls": "ok"
     }
   ],
   "heat": {
