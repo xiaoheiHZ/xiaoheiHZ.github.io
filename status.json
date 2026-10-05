@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T17:13:42+08:00",
+  "updated": "2026-10-05T17:24:39+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -63,35 +63,35 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 59,
+      "mem": 150,
       "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 196,
+      "cpu": 0.9,
+      "mem": 1502,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 1.0,
-      "mem": 1086,
+      "cpu": 0.8,
+      "mem": 1495,
       "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 185,
+      "cpu": 0.5,
+      "mem": 537,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 129,
+      "cpu": 0.6,
+      "mem": 474,
       "act": 2
     }
   ],
@@ -173,6 +173,18 @@
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Warden['❤ 8/150'/2244, uuid='8ce67617-cf3d-4963-a8df-2db05cb83127', l='",
       "cls": "warn"
+    },
+    {
+      "t": "17:17:16",
+      "tag": "[成就]",
+      "msg": "起床战争: 114514 has made the advancement [Sneak 100]",
+      "cls": "ok"
+    },
+    {
+      "t": "17:17:16",
+      "tag": "[成就]",
+      "msg": "起床战争: 114514 has made the advancement [Take Aim]",
+      "cls": "ok"
     }
   ],
   "heat": {
