@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-05T17:46:26+08:00",
+  "updated": "2026-10-05T17:51:50+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -18,7 +18,7 @@
     {
       "name": "生存服",
       "online": true,
-      "players": 2
+      "players": 0
     },
     {
       "name": "起床战争",
@@ -62,46 +62,40 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 84,
-      "act": 4
+      "cpu": 0.0,
+      "mem": 126,
+      "act": 2
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 2293,
-      "act": 4
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.2,
-      "mem": 254,
+      "cpu": 0.6,
+      "mem": 2757,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 155,
+      "cpu": 0.3,
+      "mem": 448,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.7,
+      "mem": 193,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 139,
+      "cpu": 0.3,
+      "mem": 652,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "16:01:11",
-      "tag": "[启动]",
-      "msg": "生存服: Done (16.039s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "16:01:37",
       "tag": "[启动]",
@@ -119,24 +113,6 @@
       "tag": "[启动]",
       "msg": "登入服: Done (14.147s)! For help, type \"help\"",
       "cls": "ok"
-    },
-    {
-      "t": "16:09:02",
-      "tag": "[JOIN]",
-      "msg": "生存服: 114514 joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "16:09:40",
-      "tag": "[成就]",
-      "msg": "生存服: 114514 has made the advancement [Monster Hunter]",
-      "cls": "ok"
-    },
-    {
-      "t": "16:24:30",
-      "tag": "[QUIT]",
-      "msg": "生存服: 114514 left the game",
-      "cls": "warn"
     },
     {
       "t": "16:28:21",
@@ -187,22 +163,16 @@
       "cls": "ok"
     },
     {
-      "t": "17:38:32",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
-      "cls": "ok"
+      "t": "17:51:09",
+      "tag": "[QUIT]",
+      "msg": "生存服: 114514 left the game",
+      "cls": "warn"
     },
     {
-      "t": "17:38:33",
-      "tag": "[JOIN]",
-      "msg": "生存服: 114514 joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "17:38:49",
-      "tag": "[成就]",
-      "msg": "生存服: xiaohei_HZ has completed the challenge [Cover Me in Debris]",
-      "cls": "ok"
+      "t": "17:51:23",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
