@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T18:19:50+08:00",
+  "updated": "2026-10-05T18:25:10+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -58,22 +58,7 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 66,
-      "act": 2
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.5,
-      "mem": 580,
-      "act": 2
-    }
-  ],
+  "processes": [],
   "logs": [
     {
       "t": "16:01:48",
