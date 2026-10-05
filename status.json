@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-05T16:29:53+08:00",
+  "updated": "2026-10-05T16:46:24+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 1,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -23,12 +23,12 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 1
+      "players": 0
     }
   ],
   "leaderboard": [
@@ -62,37 +62,37 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 12,
-      "act": 3
+      "cpu": 0.1,
+      "mem": 161,
+      "act": 4
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.9,
-      "mem": 98,
+      "cpu": 0.8,
+      "mem": 465,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 113,
-      "act": 2
+      "cpu": 0.7,
+      "mem": 1266,
+      "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.4,
-      "mem": 626,
-      "act": 2
+      "mem": 1085,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 295,
-      "act": 3
+      "cpu": 0.6,
+      "mem": 904,
+      "act": 2
     }
   ],
   "logs": [
@@ -142,6 +142,18 @@
       "t": "16:28:21",
       "tag": "[成就]",
       "msg": "PvP 竞技: 114514 has made the advancement [Cover Me with Diamonds]",
+      "cls": "ok"
+    },
+    {
+      "t": "16:42:21",
+      "tag": "[成就]",
+      "msg": "起床战争: 114514 has made the advancement [Acquire Hardware]",
+      "cls": "ok"
+    },
+    {
+      "t": "16:45:56",
+      "tag": "[成就]",
+      "msg": "起床战争: 114514 has made the advancement [Diamonds!]",
       "cls": "ok"
     }
   ],
