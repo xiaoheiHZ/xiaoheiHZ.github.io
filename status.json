@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T16:24:29+08:00",
+  "updated": "2026-10-05T16:29:53+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -18,7 +18,7 @@
     {
       "name": "生存服",
       "online": true,
-      "players": 1
+      "players": 0
     },
     {
       "name": "起床战争",
@@ -28,7 +28,7 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 0
+      "players": 1
     }
   ],
   "leaderboard": [
@@ -63,36 +63,36 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 407,
+      "mem": 12,
       "act": 3
     },
     {
       "n": "生存服",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 2288,
-      "act": 3
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.1,
-      "mem": 1247,
+      "cpu": 0.9,
+      "mem": 98,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1339,
+      "cpu": 0.5,
+      "mem": 113,
+      "act": 2
+    },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.4,
+      "mem": 626,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 983,
-      "act": 2
+      "cpu": 0.4,
+      "mem": 295,
+      "act": 3
     }
   ],
   "logs": [
@@ -131,6 +131,18 @@
       "tag": "[成就]",
       "msg": "生存服: 114514 has made the advancement [Monster Hunter]",
       "cls": "ok"
+    },
+    {
+      "t": "16:24:30",
+      "tag": "[QUIT]",
+      "msg": "生存服: 114514 left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "16:28:21",
+      "tag": "[成就]",
+      "msg": "PvP 竞技: 114514 has made the advancement [Cover Me with Diamonds]",
+      "cls": "ok"
     }
   ],
   "heat": {
@@ -164,13 +176,7 @@
         "pct": 8.3
       }
     ],
-    "points": [
-      {
-        "name": "114514",
-        "x": 111,
-        "z": -466
-      }
-    ],
+    "points": [],
     "total": 12
   }
 }
