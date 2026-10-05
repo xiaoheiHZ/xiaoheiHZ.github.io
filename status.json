@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-05T22:34:53+08:00",
+  "updated": "2026-10-05T22:45:50+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 3,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 3
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -63,21 +63,21 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.1,
-      "mem": 386,
-      "act": 5
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 1.0,
-      "mem": 1291,
+      "mem": 76,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.4,
-      "mem": 327,
+      "mem": 415,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 1.1,
+      "mem": 648,
       "act": 2
     }
   ],
