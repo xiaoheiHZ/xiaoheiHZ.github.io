@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:07:37+08:00",
+  "updated": "2026-10-05T22:13:02+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,22 +62,22 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 351,
+      "cpu": 0.4,
+      "mem": 408,
       "act": 5
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1005,
+      "cpu": 1.1,
+      "mem": 1274,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 154,
+      "cpu": 0.5,
+      "mem": 314,
       "act": 2
     }
   ],
@@ -128,6 +128,12 @@
       "t": "22:04:30",
       "tag": "[成就]",
       "msg": "起床战争: xiaoheiHZ has made the advancement [Suit Up]",
+      "cls": "ok"
+    },
+    {
+      "t": "22:11:01",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaoheiHZ has made the advancement [Diamonds!]",
       "cls": "ok"
     }
   ],
