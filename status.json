@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T13:26:07+08:00",
+  "updated": "2026-10-06T13:32:06+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,15 +62,15 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 368,
+      "cpu": 0.3,
+      "mem": 373,
       "act": 5
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1073,
+      "cpu": 0.6,
+      "mem": 725,
       "act": 5
     }
   ],
@@ -109,6 +109,12 @@
       "t": "13:20:35",
       "tag": "[启动]",
       "msg": "起床战争: Done (15.123s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "13:29:23",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaoheiHZ has made the advancement [Ice Bucket Challenge]",
       "cls": "ok"
     }
   ],
