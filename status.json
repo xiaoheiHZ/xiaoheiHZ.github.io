@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-06T13:59:36+08:00",
+  "updated": "2026-10-06T14:05:06+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 3,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 3
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -62,16 +62,16 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 407,
-      "act": 5
+      "cpu": 0.0,
+      "mem": 422,
+      "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.2,
-      "mem": 1162,
-      "act": 5
+      "mem": 1298,
+      "act": 4
     }
   ],
   "logs": [
@@ -158,6 +158,12 @@
       "tag": "[成就]",
       "msg": "起床战争: xiaoheiHZ has made the advancement [A Throwaway Joke]",
       "cls": "ok"
+    },
+    {
+      "t": "14:01:50",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Warden['❤ 5/400'/2348, uuid='b43f7789-f059-4b54-a622-3294e06adf24', l='",
+      "cls": "warn"
     }
   ],
   "heat": {
