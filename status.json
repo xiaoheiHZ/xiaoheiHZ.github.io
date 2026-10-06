@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T13:43:06+08:00",
+  "updated": "2026-10-06T13:48:36+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,15 +62,15 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 403,
+      "cpu": 0.1,
+      "mem": 407,
       "act": 5
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1122,
+      "cpu": 0.5,
+      "mem": 1160,
       "act": 5
     }
   ],
@@ -146,6 +146,12 @@
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Silverfish['❤ 2/8'/820, uuid='a9e7518f-aecc-44f3-9a05-59a859b7c060', l=",
       "cls": "warn"
+    },
+    {
+      "t": "13:44:35",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaoheiHZ has made the advancement [Sneak 100]",
+      "cls": "ok"
     }
   ],
   "heat": {
