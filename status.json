@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T17:15:02+08:00",
+  "updated": "2026-10-06T17:20:27+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -17,17 +17,17 @@
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -62,60 +62,50 @@
     {
       "n": "Velocity 代理",
       "st": "run",
+      "cpu": 0.1,
+      "mem": 41,
+      "act": 2
+    },
+    {
+      "n": "Velocity 代理",
+      "st": "run",
       "cpu": 0.0,
-      "mem": 86,
+      "mem": 28,
       "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
       "cpu": 0.1,
-      "mem": 984,
+      "mem": 305,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.3,
+      "mem": 139,
       "act": 2
     }
   ],
   "logs": [
     {
-      "t": "09:24:41",
+      "t": "17:17:52",
       "tag": "[启动]",
-      "msg": "生存服: Done (16.318s)! For help, type \"help\"",
+      "msg": "生存服: Done (18.059s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "09:25:25",
+      "t": "17:18:12",
       "tag": "[启动]",
-      "msg": "PvP 竞技: Done (15.678s)! For help, type \"help\"",
+      "msg": "起床战争: Done (13.632s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "09:29:04",
-      "tag": "[JOIN]",
-      "msg": "生存服: f0urvvv joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "09:29:39",
-      "tag": "[QUIT]",
-      "msg": "生存服: f0urvvv left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "13:01:48",
+      "t": "17:18:32",
       "tag": "[启动]",
-      "msg": "登入服: Done (16.342s)! For help, type \"help\"",
+      "msg": "PvP 竞技: Done (13.902s)! For help, type \"help\"",
       "cls": "ok"
-    },
-    {
-      "t": "14:19:46",
-      "tag": "[QUIT]",
-      "msg": "起床战争: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "14:19:46",
-      "tag": "[QUIT]",
-      "msg": "起床战争: f0urvvv left the game",
-      "cls": "warn"
     }
   ],
   "heat": {
