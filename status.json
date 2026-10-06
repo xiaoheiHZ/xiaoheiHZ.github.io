@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-06T18:03:44+08:00",
+  "updated": "2026-10-06T18:09:12+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 0,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 0
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -71,38 +71,32 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 124,
-      "act": 2
+      "mem": 258,
+      "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 10,
-      "act": 2
+      "mem": 57,
+      "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 1106,
-      "act": 2
+      "cpu": 0.7,
+      "mem": 1138,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 269,
+      "cpu": 0.7,
+      "mem": 1137,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "17:33:41",
-      "tag": "[DEATH]",
-      "msg": "起床战争: xiaohei_HZ fell from a high place",
-      "cls": "warn"
-    },
     {
       "t": "17:37:16",
       "tag": "[CHAT]",
@@ -228,6 +222,12 @@
       "tag": "[QUIT]",
       "msg": "生存服: xiaohei_HZ left the game",
       "cls": "warn"
+    },
+    {
+      "t": "18:08:44",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> ?",
+      "cls": "info"
     }
   ],
   "heat": {
