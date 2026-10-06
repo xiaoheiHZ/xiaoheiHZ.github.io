@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T13:32:06+08:00",
+  "updated": "2026-10-06T13:37:36+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,15 +62,15 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 373,
+      "cpu": 0.1,
+      "mem": 384,
       "act": 5
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.6,
-      "mem": 725,
+      "cpu": 0.1,
+      "mem": 1175,
       "act": 5
     }
   ],
@@ -116,6 +116,36 @@
       "tag": "[成就]",
       "msg": "起床战争: xiaoheiHZ has made the advancement [Ice Bucket Challenge]",
       "cls": "ok"
+    },
+    {
+      "t": "13:32:56",
+      "tag": "[成就]",
+      "msg": "起床战争: f0urvvv has made the advancement [Monster Hunter]",
+      "cls": "ok"
+    },
+    {
+      "t": "13:32:56",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 4/8'/823, uuid='b3545d1e-cb01-4ab0-9501-612edb285e45', l=",
+      "cls": "warn"
+    },
+    {
+      "t": "13:33:01",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 2/8'/821, uuid='628c36cf-10be-4de3-85a6-71a16693bb78', l=",
+      "cls": "warn"
+    },
+    {
+      "t": "13:33:04",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 3/8'/822, uuid='07660469-9c0c-4a12-85a5-14e9adafe553', l=",
+      "cls": "warn"
+    },
+    {
+      "t": "13:33:06",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 2/8'/820, uuid='a9e7518f-aecc-44f3-9a05-59a859b7c060', l=",
+      "cls": "warn"
     }
   ],
   "heat": {
