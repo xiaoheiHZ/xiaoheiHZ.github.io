@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-06T18:36:43+08:00",
+  "updated": "2026-10-06T18:42:11+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 1,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 2
+      "players": 1
     },
     {
       "name": "PvP 竞技",
@@ -70,75 +70,33 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 281,
-      "act": 4
+      "cpu": 0.0,
+      "mem": 33,
+      "act": 3
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 32,
-      "act": 4
+      "mem": 2,
+      "act": 3
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1199,
-      "act": 4
+      "cpu": 0.1,
+      "mem": 101,
+      "act": 3
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.4,
-      "mem": 502,
+      "cpu": 0.2,
+      "mem": 100,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "17:49:15",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <xiaohei_HZ> 我感觉有点卡",
-      "cls": "info"
-    },
-    {
-      "t": "17:50:07",
-      "tag": "[DEATH]",
-      "msg": "PvP 竞技: xiaohei_HZ was slain by Easy_wuyou",
-      "cls": "warn"
-    },
-    {
-      "t": "17:51:14",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: Easy_wuyou has made the advancement [Ice Bucket Challenge]",
-      "cls": "ok"
-    },
-    {
-      "t": "17:51:25",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <xiaohei_HZ> 这个我感觉打不完",
-      "cls": "info"
-    },
-    {
-      "t": "17:51:30",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> ?",
-      "cls": "info"
-    },
-    {
-      "t": "17:51:36",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: Easy_wuyou has made the advancement [Ol' Betsy]",
-      "cls": "ok"
-    },
-    {
-      "t": "17:51:43",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: Easy_wuyou has made the advancement [Take Aim]",
-      "cls": "ok"
-    },
     {
       "t": "17:55:48",
       "tag": "[JOIN]",
@@ -228,6 +186,48 @@
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Silverfish['❤ 1/8'/934, uuid='c451a929-9c71-4fc1-b4cf-4bf53e815bf8', l=",
       "cls": "warn"
+    },
+    {
+      "t": "18:38:50",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Easy_wuyou fell from a high place",
+      "cls": "warn"
+    },
+    {
+      "t": "18:39:09",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> 力竭了",
+      "cls": "info"
+    },
+    {
+      "t": "18:39:24",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <xiaohei_HZ> 其实有能飞的鞘翅",
+      "cls": "info"
+    },
+    {
+      "t": "18:39:31",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> ?",
+      "cls": "info"
+    },
+    {
+      "t": "18:39:43",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <xiaohei_HZ> 像创造一样",
+      "cls": "info"
+    },
+    {
+      "t": "18:40:19",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> ?!",
+      "cls": "info"
+    },
+    {
+      "t": "18:40:35",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> 你等我一下",
+      "cls": "info"
     }
   ],
   "heat": {
