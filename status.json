@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T09:49:42+08:00",
+  "updated": "2026-10-06T09:55:06+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,29 +62,29 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 402,
+      "cpu": 0.5,
+      "mem": 401,
       "act": 5
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.2,
-      "mem": 444,
+      "mem": 476,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 307,
+      "cpu": 0.2,
+      "mem": 338,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 332,
+      "mem": 853,
       "act": 2
     }
   ],
