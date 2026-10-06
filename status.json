@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-06T14:16:07+08:00",
+  "updated": "2026-10-06T14:21:39+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -22,8 +22,8 @@
     },
     {
       "name": "起床战争",
-      "online": true,
-      "players": 2
+      "online": false,
+      "players": 0
     },
     {
       "name": "PvP 竞技",
@@ -63,15 +63,15 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 403,
-      "act": 4
+      "mem": 397,
+      "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1292,
-      "act": 4
+      "cpu": 0.1,
+      "mem": 1318,
+      "act": 2
     }
   ],
   "logs": [
@@ -106,99 +106,15 @@
       "cls": "ok"
     },
     {
-      "t": "13:20:35",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (15.123s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "13:29:23",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaoheiHZ has made the advancement [Ice Bucket Challenge]",
-      "cls": "ok"
-    },
-    {
-      "t": "13:32:56",
-      "tag": "[成就]",
-      "msg": "起床战争: f0urvvv has made the advancement [Monster Hunter]",
-      "cls": "ok"
-    },
-    {
-      "t": "13:32:56",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 4/8'/823, uuid='b3545d1e-cb01-4ab0-9501-612edb285e45', l=",
+      "t": "14:19:46",
+      "tag": "[QUIT]",
+      "msg": "起床战争: xiaohei_HZ left the game",
       "cls": "warn"
     },
     {
-      "t": "13:33:01",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 2/8'/821, uuid='628c36cf-10be-4de3-85a6-71a16693bb78', l=",
-      "cls": "warn"
-    },
-    {
-      "t": "13:33:04",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 3/8'/822, uuid='07660469-9c0c-4a12-85a5-14e9adafe553', l=",
-      "cls": "warn"
-    },
-    {
-      "t": "13:33:06",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 2/8'/820, uuid='a9e7518f-aecc-44f3-9a05-59a859b7c060', l=",
-      "cls": "warn"
-    },
-    {
-      "t": "13:44:35",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaoheiHZ has made the advancement [Sneak 100]",
-      "cls": "ok"
-    },
-    {
-      "t": "13:49:59",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaoheiHZ has made the advancement [A Throwaway Joke]",
-      "cls": "ok"
-    },
-    {
-      "t": "14:01:50",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Warden['❤ 5/400'/2348, uuid='b43f7789-f059-4b54-a622-3294e06adf24', l='",
-      "cls": "warn"
-    },
-    {
-      "t": "14:08:05",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Wolf['❤ 40/40'/9340, uuid='448e13aa-0367-4dd1-90ce-2281a267d8c0', l='Se",
-      "cls": "warn"
-    },
-    {
-      "t": "14:08:06",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Wolf['❤ 40/40'/9341, uuid='7ec3a7d7-78a7-49d8-8eb5-a464051573c5', l='Se",
-      "cls": "warn"
-    },
-    {
-      "t": "14:08:08",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Wolf['❤ 40/40'/9342, uuid='e884e628-4721-4bc5-a3f2-a9bfb9cdfe72', l='Se",
-      "cls": "warn"
-    },
-    {
-      "t": "14:11:50",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 0/24'/9812, uuid='3028803a-61ab-4c0e-a562-7627cc47dac6', ",
-      "cls": "warn"
-    },
-    {
-      "t": "14:13:03",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Warden['❤ 9/1024'/9790, uuid='72dfe1f4-d440-4329-92ac-9d059f24328e', l=",
-      "cls": "warn"
-    },
-    {
-      "t": "14:14:31",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Warden['❤ 5/400'/9856, uuid='faa2d851-f120-4c7c-b3c6-52f1d90f0d1c', l='",
+      "t": "14:19:46",
+      "tag": "[QUIT]",
+      "msg": "起床战争: f0urvvv left the game",
       "cls": "warn"
     }
   ],
