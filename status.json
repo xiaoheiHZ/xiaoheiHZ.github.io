@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T12:52:48+08:00",
+  "updated": "2026-10-06T13:15:05+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -22,7 +22,7 @@
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
@@ -58,24 +58,27 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [],
-  "logs": [
+  "processes": [
     {
-      "t": "09:24:11",
-      "tag": "[启动]",
-      "msg": "登入服: Done (21.122s)! For help, type \"help\"",
-      "cls": "ok"
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.1,
+      "mem": 352,
+      "act": 2
     },
+    {
+      "n": "起床战争",
+      "st": "run",
+      "cpu": 0.3,
+      "mem": 1091,
+      "act": 2
+    }
+  ],
+  "logs": [
     {
       "t": "09:24:41",
       "tag": "[启动]",
       "msg": "生存服: Done (16.318s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "09:25:06",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (16.580s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
@@ -97,28 +100,22 @@
       "cls": "warn"
     },
     {
-      "t": "09:30:08",
-      "tag": "[CHAT]",
-      "msg": "起床战争: [Not Secure] <xiaohei_HZ> 1",
-      "cls": "info"
-    },
-    {
-      "t": "09:30:15",
-      "tag": "[CHAT]",
-      "msg": "起床战争: [Not Secure] <xiaoheiHZ> 1",
-      "cls": "info"
-    },
-    {
-      "t": "10:00:18",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Warden['❤ 6/400'/3250, uuid='934df15c-cdad-4eeb-a742-1a6450a1a9d8', l='",
-      "cls": "warn"
-    },
-    {
-      "t": "10:01:35",
-      "tag": "[成就]",
-      "msg": "起床战争: f0urvvv has made the advancement [Diamonds!]",
+      "t": "13:01:48",
+      "tag": "[启动]",
+      "msg": "登入服: Done (16.342s)! For help, type \"help\"",
       "cls": "ok"
+    },
+    {
+      "t": "13:11:09",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (15.110s)! For help, type \"help\"",
+      "cls": "ok"
+    },
+    {
+      "t": "13:13:17",
+      "tag": "[DEATH]",
+      "msg": "起床战争: xiaoheiHZ fell from a high place",
+      "cls": "warn"
     }
   ],
   "heat": {
