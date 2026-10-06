@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-06T18:42:11+08:00",
+  "updated": "2026-10-06T18:47:39+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 1,
+    "online": 2,
     "max": 100,
     "list": []
   },
@@ -23,7 +23,7 @@
     {
       "name": "起床战争",
       "online": true,
-      "players": 1
+      "players": 2
     },
     {
       "name": "PvP 竞技",
@@ -71,56 +71,32 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 33,
-      "act": 3
+      "mem": 284,
+      "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 2,
-      "act": 3
+      "mem": 39,
+      "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 101,
-      "act": 3
+      "cpu": 0.2,
+      "mem": 1226,
+      "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 100,
+      "cpu": 0.5,
+      "mem": 588,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "17:55:48",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "17:57:50",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
-    {
-      "t": "17:57:55",
-      "tag": "[JOIN]",
-      "msg": "生存服: xiaohei_HZ joined the game",
-      "cls": "ok"
-    },
-    {
-      "t": "17:58:05",
-      "tag": "[QUIT]",
-      "msg": "生存服: xiaohei_HZ left the game",
-      "cls": "warn"
-    },
     {
       "t": "18:08:44",
       "tag": "[CHAT]",
@@ -227,6 +203,30 @@
       "t": "18:40:35",
       "tag": "[CHAT]",
       "msg": "起床战争: [Not Secure] <Easy_wuyou> 你等我一下",
+      "cls": "info"
+    },
+    {
+      "t": "18:44:02",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <xiaohei_HZ> ???",
+      "cls": "info"
+    },
+    {
+      "t": "18:44:04",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> ?",
+      "cls": "info"
+    },
+    {
+      "t": "18:44:11",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> 怎么了",
+      "cls": "info"
+    },
+    {
+      "t": "18:44:24",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <xiaohei_HZ> 哦没事了",
       "cls": "info"
     }
   ],
