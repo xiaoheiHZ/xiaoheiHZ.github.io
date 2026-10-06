@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T18:20:09+08:00",
+  "updated": "2026-10-06T18:25:38+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -71,56 +71,32 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 202,
+      "mem": 199,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 38,
+      "mem": 37,
       "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 705,
+      "cpu": 0.2,
+      "mem": 607,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 988,
+      "mem": 866,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "17:43:06",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 刚才有3三次",
-      "cls": "info"
-    },
-    {
-      "t": "17:47:57",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> ?",
-      "cls": "info"
-    },
-    {
-      "t": "17:48:00",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 哦",
-      "cls": "info"
-    },
-    {
-      "t": "17:48:33",
-      "tag": "[成就]",
-      "msg": "PvP 竞技: Easy_wuyou has made the advancement [Cover Me with Diamonds]",
-      "cls": "ok"
-    },
     {
       "t": "17:49:15",
       "tag": "[CHAT]",
@@ -228,6 +204,30 @@
       "tag": "[成就]",
       "msg": "起床战争: Easy_wuyou has made the advancement [Who Needs Rockets?]",
       "cls": "ok"
+    },
+    {
+      "t": "18:21:00",
+      "tag": "[成就]",
+      "msg": "起床战争: Easy_wuyou has made the advancement [Monster Hunter]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:21:00",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 8/8'/933, uuid='6d16531a-cd15-469f-b1cf-40f8fe26d1cf', l=",
+      "cls": "warn"
+    },
+    {
+      "t": "18:21:05",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 2/8'/935, uuid='1ffc0704-8b64-4867-8976-58e54475a9a8', l=",
+      "cls": "warn"
+    },
+    {
+      "t": "18:21:05",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 1/8'/934, uuid='c451a929-9c71-4fc1-b4cf-4bf53e815bf8', l=",
+      "cls": "warn"
     }
   ],
   "heat": {
