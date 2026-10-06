@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-06T17:52:52+08:00",
+  "updated": "2026-10-06T17:58:16+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -28,15 +28,15 @@
     {
       "name": "PvP 竞技",
       "online": true,
-      "players": 2
+      "players": 0
     }
   ],
   "leaderboard": [
     {
       "uuid": "91f73b5e-93b6-33d1-afa4-d6f03e51eabf",
       "name": "xiaohei_HZ",
-      "kills": 35,
-      "wins": 34,
+      "kills": 36,
+      "wins": 35,
       "losses": 18,
       "deaths": 19
     },
@@ -61,8 +61,8 @@
       "name": "Easy_wuyou",
       "kills": 1,
       "wins": 1,
-      "losses": 0,
-      "deaths": 0
+      "losses": 1,
+      "deaths": 1
     }
   ],
   "note": "数据每 5 分钟自动刷新",
@@ -71,50 +71,32 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 318,
-      "act": 4
+      "mem": 199,
+      "act": 2
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 39,
-      "act": 4
+      "mem": 12,
+      "act": 2
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 555,
+      "cpu": 0.3,
+      "mem": 1326,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1210,
-      "act": 4
+      "cpu": 0.1,
+      "mem": 955,
+      "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "17:17:52",
-      "tag": "[启动]",
-      "msg": "生存服: Done (18.059s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "17:18:12",
-      "tag": "[启动]",
-      "msg": "起床战争: Done (13.632s)! For help, type \"help\"",
-      "cls": "ok"
-    },
-    {
-      "t": "17:18:32",
-      "tag": "[启动]",
-      "msg": "PvP 竞技: Done (13.902s)! For help, type \"help\"",
-      "cls": "ok"
-    },
     {
       "t": "17:33:41",
       "tag": "[DEATH]",
@@ -222,6 +204,30 @@
       "tag": "[成就]",
       "msg": "PvP 竞技: Easy_wuyou has made the advancement [Take Aim]",
       "cls": "ok"
+    },
+    {
+      "t": "17:55:48",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:57:50",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
+    },
+    {
+      "t": "17:57:55",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
+    },
+    {
+      "t": "17:58:05",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
     }
   ],
   "heat": {
