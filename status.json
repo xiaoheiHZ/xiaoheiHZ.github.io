@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T18:09:12+08:00",
+  "updated": "2026-10-06T18:14:41+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -70,57 +70,33 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 258,
+      "cpu": 0.1,
+      "mem": 200,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 57,
+      "mem": 35,
       "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 1138,
+      "cpu": 0.3,
+      "mem": 1098,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.7,
-      "mem": 1137,
+      "cpu": 0.3,
+      "mem": 1133,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "17:37:16",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 该职业的使斗场地尚未生成!请管理员执行 /pvp ...............................",
-      "cls": "info"
-    },
-    {
-      "t": "17:37:30",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <xiaohei_HZ> sorry我忘了",
-      "cls": "info"
-    },
-    {
-      "t": "17:40:12",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <xiaohei_HZ> 你卡吗",
-      "cls": "info"
-    },
-    {
-      "t": "17:42:31",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 回来了",
-      "cls": "info"
-    },
     {
       "t": "17:42:41",
       "tag": "[CHAT]",
@@ -228,6 +204,30 @@
       "tag": "[CHAT]",
       "msg": "起床战争: [Not Secure] <Easy_wuyou> ?",
       "cls": "info"
+    },
+    {
+      "t": "18:09:11",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <Easy_wuyou> 为什么这个皮肤的头发是平的",
+      "cls": "info"
+    },
+    {
+      "t": "18:09:39",
+      "tag": "[CHAT]",
+      "msg": "起床战争: [Not Secure] <xiaohei_HZ> 有亿点点的bug",
+      "cls": "info"
+    },
+    {
+      "t": "18:11:37",
+      "tag": "[成就]",
+      "msg": "起床战争: Easy_wuyou has made the advancement [Suit Up]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:13:23",
+      "tag": "[成就]",
+      "msg": "起床战争: Easy_wuyou has made the advancement [Surge Protector]",
+      "cls": "ok"
     }
   ],
   "heat": {
