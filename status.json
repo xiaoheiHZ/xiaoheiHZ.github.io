@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T13:48:36+08:00",
+  "updated": "2026-10-06T13:54:06+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,15 +62,15 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 407,
+      "cpu": 0.2,
+      "mem": 408,
       "act": 5
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.5,
-      "mem": 1160,
+      "cpu": 0.9,
+      "mem": 1162,
       "act": 5
     }
   ],
@@ -151,6 +151,12 @@
       "t": "13:44:35",
       "tag": "[成就]",
       "msg": "起床战争: xiaoheiHZ has made the advancement [Sneak 100]",
+      "cls": "ok"
+    },
+    {
+      "t": "13:49:59",
+      "tag": "[成就]",
+      "msg": "起床战争: xiaoheiHZ has made the advancement [A Throwaway Joke]",
       "cls": "ok"
     }
   ],
