@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T14:10:37+08:00",
+  "updated": "2026-10-06T14:16:07+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -63,14 +63,14 @@
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 404,
+      "mem": 403,
       "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1290,
+      "cpu": 0.2,
+      "mem": 1292,
       "act": 4
     }
   ],
@@ -181,6 +181,24 @@
       "t": "14:08:08",
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Wolf['❤ 40/40'/9342, uuid='e884e628-4721-4bc5-a3f2-a9bfb9cdfe72', l='Se",
+      "cls": "warn"
+    },
+    {
+      "t": "14:11:50",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Silverfish['❤ 0/24'/9812, uuid='3028803a-61ab-4c0e-a562-7627cc47dac6', ",
+      "cls": "warn"
+    },
+    {
+      "t": "14:13:03",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Warden['❤ 9/1024'/9790, uuid='72dfe1f4-d440-4329-92ac-9d059f24328e', l=",
+      "cls": "warn"
+    },
+    {
+      "t": "14:14:31",
+      "tag": "[DEATH]",
+      "msg": "起床战争: Named entity Warden['❤ 5/400'/9856, uuid='faa2d851-f120-4c7c-b3c6-52f1d90f0d1c', l='",
       "cls": "warn"
     }
   ],
