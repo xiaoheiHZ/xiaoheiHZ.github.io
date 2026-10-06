@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-06T19:15:09+08:00",
+  "updated": "2026-10-06T19:20:29+08:00",
   "online": false,
   "latency": null,
   "players": {
-    "online": 2,
+    "online": 0,
     "max": 100,
     "list": []
   },
@@ -22,12 +22,12 @@
     },
     {
       "name": "起床战争",
-      "online": true,
-      "players": 2
+      "online": false,
+      "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": true,
+      "online": false,
       "players": 0
     }
   ],
@@ -66,48 +66,19 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 304,
-      "act": 4
-    },
-    {
-      "n": "Velocity 代理",
-      "st": "run",
-      "cpu": 0.0,
-      "mem": 50,
-      "act": 4
-    },
-    {
-      "n": "起床战争",
-      "st": "run",
-      "cpu": 0.2,
-      "mem": 1138,
-      "act": 4
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 0.2,
-      "mem": 512,
-      "act": 2
-    }
-  ],
+  "processes": [],
   "logs": [
     {
-      "t": "18:09:39",
-      "tag": "[CHAT]",
-      "msg": "起床战争: [Not Secure] <xiaohei_HZ> 有亿点点的bug",
-      "cls": "info"
+      "t": "17:57:55",
+      "tag": "[JOIN]",
+      "msg": "生存服: xiaohei_HZ joined the game",
+      "cls": "ok"
     },
     {
-      "t": "18:11:37",
-      "tag": "[成就]",
-      "msg": "起床战争: Easy_wuyou has made the advancement [Suit Up]",
-      "cls": "ok"
+      "t": "17:58:05",
+      "tag": "[QUIT]",
+      "msg": "生存服: xiaohei_HZ left the game",
+      "cls": "warn"
     },
     {
       "t": "18:13:23",
