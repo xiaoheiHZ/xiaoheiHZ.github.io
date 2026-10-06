@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T10:00:30+08:00",
+  "updated": "2026-10-06T10:05:54+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,29 +62,29 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 396,
+      "cpu": 0.1,
+      "mem": 366,
       "act": 5
     },
     {
       "n": "PvP 竞技",
       "st": "run",
+      "cpu": 0.2,
+      "mem": 486,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
       "cpu": 0.3,
-      "mem": 489,
+      "mem": 825,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 10.6,
-      "mem": 338,
-      "act": 2
-    },
-    {
-      "n": "PvP 竞技",
-      "st": "run",
-      "cpu": 0.5,
-      "mem": 849,
+      "cpu": 0.3,
+      "mem": 622,
       "act": 2
     }
   ],
@@ -142,6 +142,12 @@
       "tag": "[DEATH]",
       "msg": "起床战争: Named entity Warden['❤ 6/400'/3250, uuid='934df15c-cdad-4eeb-a742-1a6450a1a9d8', l='",
       "cls": "warn"
+    },
+    {
+      "t": "10:01:35",
+      "tag": "[成就]",
+      "msg": "起床战争: f0urvvv has made the advancement [Diamonds!]",
+      "cls": "ok"
     }
   ],
   "heat": {
