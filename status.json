@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T09:22:32+08:00",
+  "updated": "2026-10-06T09:27:57+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -17,17 +17,17 @@
     },
     {
       "name": "生存服",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "起床战争",
-      "online": false,
+      "online": true,
       "players": 0
     },
     {
       "name": "PvP 竞技",
-      "online": false,
+      "online": true,
       "players": 0
     }
   ],
@@ -58,139 +58,60 @@
     }
   ],
   "note": "数据每 5 分钟自动刷新",
-  "processes": [],
+  "processes": [
+    {
+      "n": "Velocity 代理",
+      "st": "run",
+      "cpu": 0.0,
+      "mem": 149,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.6,
+      "mem": 628,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.4,
+      "mem": 207,
+      "act": 2
+    },
+    {
+      "n": "PvP 竞技",
+      "st": "run",
+      "cpu": 0.3,
+      "mem": 109,
+      "act": 2
+    }
+  ],
   "logs": [
     {
-      "t": "22:04:30",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaoheiHZ has made the advancement [Suit Up]",
+      "t": "09:24:11",
+      "tag": "[启动]",
+      "msg": "登入服: Done (21.122s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:11:01",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaoheiHZ has made the advancement [Diamonds!]",
+      "t": "09:24:41",
+      "tag": "[启动]",
+      "msg": "生存服: Done (16.318s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:16:00",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 9/24'/3303, uuid='84316942-6a2e-4291-a95f-fef3fbc9b496', ",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:06",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 1/24'/3302, uuid='e02b12ce-d9ab-41f6-8fd5-3966446f0096', ",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:09",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 10/24'/3301, uuid='a39e4bbf-8b33-40fa-a92f-07805524077a',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:15",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 13/24'/3263, uuid='f194e442-55f6-4a33-bce2-b5d45b5b6056',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:17",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 10/24'/3264, uuid='df2a7600-0dfe-49c3-b454-2608d2567dc4',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:19",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 4/24'/3262, uuid='a2481d86-d57b-4620-89c4-d32dc306d7c7', ",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:23",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 4/24'/3339, uuid='2006ff9a-272d-4f07-b94a-47ffc59029f6', ",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:26",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 5/24'/3338, uuid='2dbd77ea-17b8-442b-a49d-d977728258d8', ",
-      "cls": "warn"
-    },
-    {
-      "t": "22:16:47",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity IronGolem['❤ 5/100'/3240, uuid='4fd140c7-fcbd-4ce3-b9c9-54724daa3ad7', ",
-      "cls": "warn"
-    },
-    {
-      "t": "22:17:09",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 15/24'/3458, uuid='f66b1000-d81f-4494-873f-38b62ed176c4',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:17:10",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 14/24'/3337, uuid='2d14f9f5-8e3d-4843-b6f9-d27490053848',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:17:14",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaoheiHZ has made the advancement [Cover Me with Diamonds]",
+      "t": "09:25:06",
+      "tag": "[启动]",
+      "msg": "起床战争: Done (16.580s)! For help, type \"help\"",
       "cls": "ok"
     },
     {
-      "t": "22:17:27",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 14/24'/3459, uuid='56ed4fcd-1a4d-46d7-9be2-300a3ab4ef1f',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:17:34",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 8/24'/3416, uuid='f07b3dc3-5863-4644-81d3-0ad588ae58ad', ",
-      "cls": "warn"
-    },
-    {
-      "t": "22:18:06",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 8/8'/3637, uuid='c27b12f0-c01a-4dcd-8d57-3f4c0e01d968', l",
-      "cls": "warn"
-    },
-    {
-      "t": "22:18:57",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 24/24'/3721, uuid='00388343-f7ef-43d2-9194-ce0135e8c5f5',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:20:02",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 24/24'/3720, uuid='6da58cfa-e6c2-462c-84db-16a234c5bc33',",
-      "cls": "warn"
-    },
-    {
-      "t": "22:29:05",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaoheiHZ has made the advancement [Monster Hunter]",
+      "t": "09:25:25",
+      "tag": "[启动]",
+      "msg": "PvP 竞技: Done (15.678s)! For help, type \"help\"",
       "cls": "ok"
-    },
-    {
-      "t": "22:29:57",
-      "tag": "[成就]",
-      "msg": "起床战争: xiaohei_HZ has made the advancement [Monster Hunter]",
-      "cls": "ok"
-    },
-    {
-      "t": "22:30:23",
-      "tag": "[DEATH]",
-      "msg": "起床战争: Named entity Silverfish['❤ 8/8'/5212, uuid='028f803b-84cc-4382-97b0-f6fd2e469846', l",
-      "cls": "warn"
     }
   ],
   "heat": {
