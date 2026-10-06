@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T17:42:04+08:00",
+  "updated": "2026-10-06T17:47:28+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -62,29 +62,29 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.0,
-      "mem": 226,
+      "cpu": 0.1,
+      "mem": 216,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 46,
+      "mem": 48,
       "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 1078,
+      "cpu": 0.2,
+      "mem": 1043,
       "act": 2
     },
     {
       "n": "PvP 竞技",
       "st": "run",
-      "cpu": 0.2,
-      "mem": 1139,
+      "cpu": 0.4,
+      "mem": 1142,
       "act": 4
     }
   ],
@@ -129,6 +129,30 @@
       "t": "17:40:12",
       "tag": "[CHAT]",
       "msg": "PvP 竞技: [Not Secure] <xiaohei_HZ> 你卡吗",
+      "cls": "info"
+    },
+    {
+      "t": "17:42:31",
+      "tag": "[CHAT]",
+      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 回来了",
+      "cls": "info"
+    },
+    {
+      "t": "17:42:41",
+      "tag": "[CHAT]",
+      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 有点",
+      "cls": "info"
+    },
+    {
+      "t": "17:42:53",
+      "tag": "[CHAT]",
+      "msg": "PvP 竞技: [Not Secure] <xiaohei_HZ> 行吧",
+      "cls": "info"
+    },
+    {
+      "t": "17:43:06",
+      "tag": "[CHAT]",
+      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 刚才有3三次",
       "cls": "info"
     }
   ],
