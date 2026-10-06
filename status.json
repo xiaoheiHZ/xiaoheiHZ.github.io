@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T18:14:41+08:00",
+  "updated": "2026-10-06T18:20:09+08:00",
   "online": false,
   "latency": null,
   "players": {
@@ -70,45 +70,33 @@
     {
       "n": "Velocity 代理",
       "st": "run",
-      "cpu": 0.1,
-      "mem": 200,
+      "cpu": 0.0,
+      "mem": 202,
       "act": 4
     },
     {
       "n": "Velocity 代理",
       "st": "run",
       "cpu": 0.0,
-      "mem": 35,
+      "mem": 38,
       "act": 4
     },
     {
       "n": "起床战争",
       "st": "run",
-      "cpu": 0.3,
-      "mem": 1098,
+      "cpu": 0.1,
+      "mem": 705,
       "act": 4
     },
     {
       "n": "PvP 竞技",
       "st": "run",
       "cpu": 0.3,
-      "mem": 1133,
+      "mem": 988,
       "act": 2
     }
   ],
   "logs": [
-    {
-      "t": "17:42:41",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <Easy_wuyou> 有点",
-      "cls": "info"
-    },
-    {
-      "t": "17:42:53",
-      "tag": "[CHAT]",
-      "msg": "PvP 竞技: [Not Secure] <xiaohei_HZ> 行吧",
-      "cls": "info"
-    },
     {
       "t": "17:43:06",
       "tag": "[CHAT]",
@@ -227,6 +215,18 @@
       "t": "18:13:23",
       "tag": "[成就]",
       "msg": "起床战争: Easy_wuyou has made the advancement [Surge Protector]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:15:19",
+      "tag": "[成就]",
+      "msg": "起床战争: Easy_wuyou has made the advancement [Cover Me with Diamonds]",
+      "cls": "ok"
+    },
+    {
+      "t": "18:16:06",
+      "tag": "[成就]",
+      "msg": "起床战争: Easy_wuyou has made the advancement [Who Needs Rockets?]",
       "cls": "ok"
     }
   ],
